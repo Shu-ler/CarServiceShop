@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b0b27f6-e31a-4486-b037-1326ce2b1ada">
+  <producedTypes>
+    <objectType typeId="fef9ac06-825b-4f83-8d90-92e10d0b44d4" valueTypeId="cfaec68d-2215-4526-bbf0-8f2a503549c8"/>
+    <refType typeId="ee87a692-c964-4a5c-a7f1-71fa9481c53b" valueTypeId="6429ec0b-076f-439a-9ae9-85f4a1fb4a68"/>
+    <selectionType typeId="8a270855-9a57-4c82-902f-20c9b7b6de52" valueTypeId="d2433675-7c56-4518-a625-25375119208a"/>
+    <listType typeId="3464cc6f-cd00-402c-bfc1-764ef3cf4575" valueTypeId="6d865dd1-4e1a-4704-abba-eba91b824694"/>
+    <managerType typeId="1c892a24-fc5b-4619-8cdc-97b3a4a4eebd" valueTypeId="c8f8c1d5-e027-485b-aa83-7105c064a203"/>
+  </producedTypes>
+  <name>АСМ_Мощности</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Мощности силовых агрегатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Мощности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Мощности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Мощность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Мощности силовых агрегатов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

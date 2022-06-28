@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad67a27c-9332-4eec-92e2-6fc260ef102e">
+  <producedTypes>
+    <objectType typeId="e3a95119-15f7-4669-b783-52757bc5d3b3" valueTypeId="d2ea39c0-1747-4664-b9b8-22fd7fecfea5"/>
+    <refType typeId="27c6c0cf-67c0-4862-9767-a568b781f002" valueTypeId="3a620a03-9146-4a18-83d0-de15ae66e634"/>
+    <selectionType typeId="d67e49e4-5c8b-4732-a2b9-2c8cd1080ee2" valueTypeId="9e63ec0f-0414-455e-818d-1be6336fd8fb"/>
+    <listType typeId="cc8a5280-c792-44fd-990e-3affa415b4eb" valueTypeId="f05d9e2c-79d4-4ce2-bb1f-0fb0e18b570e"/>
+    <managerType typeId="e9d0228a-b9ab-4fd8-821c-bf5faf808d75" valueTypeId="252537f2-3ec0-404c-bb9b-34268c324694"/>
+  </producedTypes>
+  <name>АСМ_Объемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Объемы силовых агрегатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Объемы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Объемы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Рабочий объем силового агрегата</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Объемы силовых агрегатов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

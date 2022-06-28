@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35826074-fec3-44c4-830d-66f035113def">
+  <producedTypes>
+    <objectType typeId="5d0e05c6-f4f5-4467-8cdc-6212764e89d4" valueTypeId="ce92aa31-fcce-4a42-9206-1b9d25c3b9ee"/>
+    <refType typeId="0fedfcbe-a330-4fda-ab52-b6d087dea73d" valueTypeId="41b5c1e0-5994-4acb-aa40-78cfe5128aef"/>
+    <selectionType typeId="a1d02852-a44e-4ca4-ac02-01d2703181a9" valueTypeId="69e89051-988f-4e0b-8ffb-4e02375019b8"/>
+    <listType typeId="66afb1b8-b53c-410f-b0e5-813a255974b5" valueTypeId="fb316e60-d4f7-4e85-b2cf-06923befe051"/>
+    <managerType typeId="547d4584-b51a-4510-a1ff-9e25cc54bee5" valueTypeId="797a08d2-057a-4019-8771-23eb611f8454"/>
+  </producedTypes>
+  <name>АСМ_ТипыКузовов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Типы кузовов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_ТипыКузовов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_ТипыКузовов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип кузова</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы кузовов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

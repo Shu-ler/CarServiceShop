@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3452d75-a92e-4196-a467-88892dbe6233">
+  <producedTypes>
+    <objectType typeId="51c78e04-36cf-4651-a3e1-229bbaaa4286" valueTypeId="dc4c222c-272c-4722-83dc-e9ac0ba94ae6"/>
+    <managerType typeId="2b5b0d15-669c-413d-9bd3-d23b9ed0629c" valueTypeId="cb75b131-10dc-4dc7-a624-be3f4b7441cc"/>
+  </producedTypes>
+  <name>АСМ_СписокКлючейМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марки, модели автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АСМ_СписокКлючейМоделей.Form.Форма</defaultForm>
+  <tabularSections uuid="267dd37f-a62f-47a2-a5e6-70d7a7d8bbab">
+    <producedTypes>
+      <objectType typeId="3659a5ee-19d9-4657-a542-4d60e3f88bf5" valueTypeId="c92f7f68-aa5e-42a4-8836-c83da2b51611"/>
+      <rowType typeId="47fbacb3-c99b-4a09-8ff2-e4e472024ef1" valueTypeId="b50fc38a-69e8-4a62-a435-c9333ee7b04b"/>
+    </producedTypes>
+    <name>Модели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модели</value>
+    </synonym>
+    <attributes uuid="72338b49-9a5f-4c79-adc0-df7f99b95314">
+      <name>КлючМодели</name>
+      <synonym>
+        <key>ru</key>
+        <value>Марка, модель, поколение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.АСМ_КлючиМоделей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="671d86dd-e961-4d97-b3f2-3cc8b3f95d36">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0df0f6a7-8ac7-4c3f-a814-b58b544feb2d">
+    <name>ФормаКлюча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ключа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

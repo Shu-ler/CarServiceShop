@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b50d14f-a2d1-496b-a3e8-688b164bb49f">
+  <producedTypes>
+    <objectType typeId="2a1da941-90e3-450b-86d9-c7bccb914334" valueTypeId="5da89acf-99de-40ad-a1a4-0da1ae759333"/>
+    <refType typeId="4c04e6ee-ec6c-4a3a-8a6a-15e002cceb1e" valueTypeId="d853de0b-302c-40bc-8cb4-ed94c182e927"/>
+    <selectionType typeId="4832e127-7168-4081-bded-251800afc57a" valueTypeId="38d17226-901c-413b-b372-c81cdbb4b26f"/>
+    <listType typeId="16bd7754-2bd8-4641-a8dd-774717379494" valueTypeId="ef384313-340c-420e-97e4-48eb71a9bb1c"/>
+    <managerType typeId="c7c303ed-bfd5-4dea-977f-7a024ced1e26" valueTypeId="1c6465ae-4a09-42f0-b433-b31112a3fc76"/>
+  </producedTypes>
+  <name>АСМ_Комплектации</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Варианты комплектации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Комплектации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Комплектации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вариант комплектации</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Варианты комплектации</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

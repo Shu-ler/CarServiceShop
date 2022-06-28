@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9012fdaf-eb57-44f6-8fbc-8542ad02f27d">
+  <producedTypes>
+    <objectType typeId="5150d312-6f55-4f05-9957-a2d63b39e034" valueTypeId="503cffe4-3733-48df-87c6-612b672b8310"/>
+    <refType typeId="89a1e530-6aed-42e8-80d6-13eb7706bcce" valueTypeId="97b8968d-f502-49ae-8756-4a2ea69616f2"/>
+    <selectionType typeId="4ffc5e4e-c991-4943-ae9f-f7fd44039f98" valueTypeId="279853ba-0bc4-40e1-b5c3-c71f8053ff4c"/>
+    <listType typeId="3326d4d7-cbcf-4b2c-96a5-5ec842fd66a7" valueTypeId="df1f7f25-1ed3-4b06-a673-62f2dbe78a1e"/>
+    <managerType typeId="3a48c48a-18ce-46d2-8ca8-255569c89351" valueTypeId="620965bb-36bf-4dfc-be7b-1459b2dbb451"/>
+  </producedTypes>
+  <name>АСМ_ТипыТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Типы топлива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_ТипыТоплива.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_ТипыТоплива.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Топливо</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f529176b-b869-46af-940d-3dcd939fcf6a">
+  <producedTypes>
+    <objectType typeId="33948213-58fd-4c15-be96-dadbbe1bf107" valueTypeId="e23076b2-a5ee-4a93-a5b1-5c76a8b66df1"/>
+    <refType typeId="a241ab7a-d7a5-4d30-b9b8-6dbf010ba044" valueTypeId="c83cc504-ee5e-4aba-a4d5-a83e84a1bc61"/>
+    <selectionType typeId="c3c06ecc-1acd-4789-8377-e015adbd0d33" valueTypeId="d5c42d02-5ce9-4ef0-b821-3ea02879fa26"/>
+    <listType typeId="9e19488d-210b-4a72-9204-020aecbbdd60" valueTypeId="c40de62c-b235-437f-87ea-8d1ac6246cc7"/>
+    <managerType typeId="9de808f4-8e34-483c-a615-8665e27cfe7a" valueTypeId="e7997496-6825-4b2d-87dd-64ec968afb17"/>
+  </producedTypes>
+  <name>АСМ_ТипыПривода</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Типы привода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_ТипыПривода.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_ТипыПривода.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Привод</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы привода</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

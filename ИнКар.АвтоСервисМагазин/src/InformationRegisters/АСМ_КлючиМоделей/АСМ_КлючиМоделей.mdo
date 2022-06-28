@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02c9fc31-9588-458a-974c-90a9d503e8d0">
+  <producedTypes>
+    <selectionType typeId="7292e12b-181d-47cd-9d6f-145d1555f4ae" valueTypeId="7653fcea-9ae0-4fcb-8db9-c5f56d83fc94"/>
+    <listType typeId="548f5dfa-89e5-47fe-a8df-83c453556304" valueTypeId="9201ab9f-5cb4-4a5a-b24d-e22e34c22c2b"/>
+    <managerType typeId="549f74bc-f796-4dfd-82a8-f1b330c0788a" valueTypeId="1f8ed1f7-8307-40e9-bae9-eae7e83f2497"/>
+    <recordSetType typeId="ffdc0372-efac-438a-b383-119491bffd4d" valueTypeId="e4c0a721-33ec-4b4c-88ad-e93a9ae12861"/>
+    <recordKeyType typeId="7754b864-56bd-4912-beda-9b31d5d45c64" valueTypeId="0bc8334c-729b-454e-aca2-f245bdced985"/>
+    <recordType typeId="f4488b1a-72c7-469b-8513-4ae218522b23" valueTypeId="735cfb83-faf1-4fe0-a92b-ee2b130a6003"/>
+    <recordManagerType typeId="26346b08-21a4-4b0c-a287-673f76e7af27" valueTypeId="eab6b0e6-e24d-4006-893a-0c9d7a259508"/>
+  </producedTypes>
+  <name>АСМ_КлючиМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи моделей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b12fe215-fc37-433e-8fa3-8140c77059fc">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f66a935e-d24d-4332-9dda-a827ab93cbe3">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0782274a-b9d3-47f8-8588-fc069820da02">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a46a160d-4f52-40f7-8793-c7e82545315a">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_КлючиМоделей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

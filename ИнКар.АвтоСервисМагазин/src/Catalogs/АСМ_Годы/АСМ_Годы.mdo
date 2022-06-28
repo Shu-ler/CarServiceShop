@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48799a89-94ef-4834-b7d3-530c6c66a439">
+  <producedTypes>
+    <objectType typeId="04a6575e-51e8-4f35-b2c3-b3f9b215f179" valueTypeId="94477a85-a661-407e-97d6-9297a057466f"/>
+    <refType typeId="b65d8eba-de1c-4043-b232-284bcf7adaea" valueTypeId="8c02a13b-374a-4beb-97d5-ebb5752ab00b"/>
+    <selectionType typeId="5fa0218f-c786-4600-95d8-10a8a6f17edd" valueTypeId="70b18d4e-0d0b-4812-a191-412b5342ef4d"/>
+    <listType typeId="77aaf373-5936-4b8a-b379-aa6d8c77ceb9" valueTypeId="6bba19f4-72af-46e6-9b39-755d114fc945"/>
+    <managerType typeId="fb667e91-6502-44a3-ba82-49d3261d10b3" valueTypeId="2da533f3-492c-4d30-9140-308d649dbbc7"/>
+  </producedTypes>
+  <name>АСМ_Годы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Годы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Годы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Годы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Год</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Годы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c29ab34e-7298-499a-8262-e81159bd6df4">
+  <producedTypes>
+    <objectType typeId="c34233c2-590e-43ef-a63f-79f3a7d364f3" valueTypeId="59868abe-3d4e-4a82-8459-53cbc5b71807"/>
+    <refType typeId="798e2693-dfdd-4a40-aa4e-312b85cd3e05" valueTypeId="cd304468-7488-4072-8cf7-6014dfc323d5"/>
+    <selectionType typeId="74811ec9-7064-4b7a-8ba9-37705705c34d" valueTypeId="5a9f0f42-19e8-42f4-b140-480ec529bace"/>
+    <listType typeId="c76815ef-a9c4-456b-a808-667f5f014688" valueTypeId="272d9b84-89d4-454e-b5fa-d47791a90058"/>
+    <managerType typeId="31f996f8-26dc-4746-86e4-bcbb3a706e4f" valueTypeId="38f93310-8d52-4e97-b2c7-dcafaa8fbe71"/>
+  </producedTypes>
+  <name>АСМ_ТипыТрансмиссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Типы трансмиссии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_ТипыТрансмиссии.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_ТипыТрансмиссии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип трансмиссии</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы трансмиссии</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

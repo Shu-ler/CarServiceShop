@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a8ce17f-109d-4463-8b3f-4b999c1424b9">
+  <producedTypes>
+    <objectType typeId="b701c41b-ac8e-4327-83f3-5687e3d14240" valueTypeId="e5ae9549-d4e4-44d4-8d19-68319f8e510b"/>
+    <managerType typeId="48a647fa-73fd-4926-a402-5ee16d4c27f3" valueTypeId="40b85f90-764e-4bb5-9586-c0365ad45d3a"/>
+  </producedTypes>
+  <name>АСМ_ОбновлениеКаталогаАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление каталога &quot;Модели автомобилей&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АСМ_ОбновлениеКаталогаАвтомобилей.Form.Форма</defaultForm>
+  <forms uuid="9716716b-068d-4f55-869c-91dfe0235a47">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

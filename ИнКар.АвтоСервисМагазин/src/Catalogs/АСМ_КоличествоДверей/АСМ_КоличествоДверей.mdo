@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b2269b-e99e-4401-9c69-b1464aa7eae6">
+  <producedTypes>
+    <objectType typeId="808ba3e3-1615-4fa2-bac2-25c072fbb6c5" valueTypeId="bfdb9467-341d-41a5-b330-f67665e79ea0"/>
+    <refType typeId="c3e45732-9cfa-446f-87d0-978d03ad97ad" valueTypeId="6120d5e0-0f38-48d8-950b-fe08b43a7a85"/>
+    <selectionType typeId="3648a74f-052c-4415-a2c0-afbdefc77683" valueTypeId="7129b989-e972-43a2-a81b-137a706c95cd"/>
+    <listType typeId="3960bca7-14a1-4d96-83f4-7271b1d882bf" valueTypeId="6254d64e-b469-4d1c-8402-d4a279ba6de8"/>
+    <managerType typeId="aebf0374-f4df-499a-92d3-2dd8c70d5398" valueTypeId="73172e9a-8b9b-46d4-a16a-2b4fbf868c70"/>
+  </producedTypes>
+  <name>АСМ_КоличествоДверей</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Количество дверей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_КоличествоДверей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_КоличествоДверей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Количество дверей</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Количество дверей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

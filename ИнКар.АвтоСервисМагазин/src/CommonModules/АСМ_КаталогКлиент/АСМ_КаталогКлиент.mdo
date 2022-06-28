@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="754ba390-1a0a-4742-b742-6747d26ce8b2">
+  <name>АСМ_КаталогКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

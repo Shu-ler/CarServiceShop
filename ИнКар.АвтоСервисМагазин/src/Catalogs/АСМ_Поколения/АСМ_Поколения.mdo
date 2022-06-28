@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75889d7c-ade2-4868-bd30-dfc4617b73d2">
+  <producedTypes>
+    <objectType typeId="e0cc806f-5500-443c-a58d-f5ebf6d58994" valueTypeId="563702ed-62dc-4398-a499-2232d2c89ed3"/>
+    <refType typeId="253ce624-7e95-4d09-925e-019e04ea1ace" valueTypeId="960f3124-2f63-4336-a7b7-2b2a80d02b0c"/>
+    <selectionType typeId="320175c0-dafa-4463-baa2-7087f94f81eb" valueTypeId="8005e8db-1748-4d40-a44f-1c5c1dbc336c"/>
+    <listType typeId="5a3a6f0f-39be-4b6c-b2f3-f337c7a5b7a4" valueTypeId="97e67a08-fc20-4b88-81a9-4d533b10c780"/>
+    <managerType typeId="9445a41a-80e1-4c62-881e-2b4994eeedf4" valueTypeId="73229e7e-32f5-4acd-bca2-32c995ae9167"/>
+  </producedTypes>
+  <name>АСМ_Поколения</name>
+  <synonym>
+    <key>ru</key>
+    <value>(АСМ) Поколения автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Поколения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Поколения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Поколение</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Поколения автомобилей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="96ea438a-d51f-43de-9645-db04fb99c509">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Марки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02873d4e-0a77-4201-ab86-c885a8f8ec48">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Модели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

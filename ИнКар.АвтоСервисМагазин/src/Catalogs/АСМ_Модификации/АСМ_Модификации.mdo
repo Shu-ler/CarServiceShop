@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c5f2603-58fe-469f-a5ba-e93a4ee41988">
+  <producedTypes>
+    <objectType typeId="a4348f6b-db42-4e3b-862a-cd0e75149b77" valueTypeId="6f57f67c-c47b-4386-969c-6c9750206cfd"/>
+    <refType typeId="6a64a060-5148-4ddb-ac6b-c54eb7c3ad3b" valueTypeId="85e2e83e-fce5-4dbf-83f9-c3561d8940c1"/>
+    <selectionType typeId="ef5a38df-6cc0-4cae-8297-f24a9958c82e" valueTypeId="ee52f40a-c617-4519-a84b-d763ae1fe202"/>
+    <listType typeId="b7269fac-5b18-4a07-b946-2cbcbc712cee" valueTypeId="b2ac297b-7f09-413f-897e-7d2c2197385b"/>
+    <managerType typeId="1a595943-a72f-4597-a94c-5c838178fc45" valueTypeId="83fdcca9-53ee-4009-826b-6a6b280f36ff"/>
+  </producedTypes>
+  <name>АСМ_Модификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Модификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Модификации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Модификации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Модификация</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модификации</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8d63d54c-c658-4823-ba88-cca5a8106ed3">
+    <name>ГодНачалаВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год начала выпуска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Годы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1616c5ce-132d-4acf-9f5e-62cec5254a7b">
+    <name>ГодОкончанияВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год окончания выпуска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Годы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72e86896-6c94-4016-a19c-35c9791fddfa">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Марки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ffd77a0-4ff3-4fe1-8077-54f52bf3fb09">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Модели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0be44125-5728-499c-8109-2d8860845ccc">
+    <name>Поколение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поколение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Поколения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2095cf0a-56d3-4c82-8ceb-8bc173b7e1a9">
+    <name>ТипТоплива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип топлива</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_ТипыТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b0eff43-1406-4e9f-bb13-76d75c5a4b73">
+    <name>ТипПривода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип привода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_ТипыПривода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df297e90-82ad-4a30-a089-b0bd0e90fa2f">
+    <name>ТипТрансмиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип трансмиссии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_ТипыТрансмиссии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2bd1df76-45e2-4034-bbbd-c3937670c4c1">
+    <name>Мощность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мощность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Мощности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a778b4c-9e29-42ac-9571-3ed4cfda825d">
+    <name>РабочийОбъем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий объем</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Объемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="596555e3-75d7-43e3-8889-84101b19adf8">
+    <name>ТипКузова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип кузова</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_ТипыКузовов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="146a2faa-49c6-473d-8564-f53f3913de64">
+    <name>КоличествоДверей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дверей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_КоличествоДверей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b3d5aab3-1ca5-41ec-aeb3-6b8cac303d13">
+    <producedTypes>
+      <objectType typeId="8902301a-9cac-4219-b8da-7a3bb5960452" valueTypeId="8ee0fab9-eee8-404f-aa42-8f2d3ff9c7f3"/>
+      <rowType typeId="47ec01d8-13c7-4b6d-a1f1-a0e6649f5f02" valueTypeId="96108d13-4bc7-4e31-a5a1-1b9d24683acc"/>
+    </producedTypes>
+    <name>Комплектации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектации</value>
+    </synonym>
+    <attributes uuid="c1813ee1-8e08-441e-a292-d3f4fd772a34">
+      <name>Комплектация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.АСМ_Комплектации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="375838de-b1db-4d2f-ba90-6eea699231ba">
+  <name>АвтоСервисМагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автосервис, магазин запчастей</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <externalConnectionModule>Extended</externalConnectionModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0a2811a6-3001-4049-a64a-16b8dd364e1a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6744293c-af21-420f-b284-8c506a5f07e4"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="12e0be59-d797-4af2-8042-c544a47ad91a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bc112500-8da5-42ba-9ce3-ef72d530206c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="80beeb58-8be8-4e83-ba4c-d8ffac31f1c4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2974736c-a0e8-4ae6-b6f2-612e4f56c258"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c4f60659-a244-4ba8-b757-c45e260f56c8"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>АСМ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.АСМ_ОсновнаяРоль</defaultRoles>
+  <version>2.58.1.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="b79ce50a-bdf7-40ff-ad6f-380ac7155172">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.АСМ_АвтоСервис</subsystems>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.АСМ_ОсновнаяРоль</roles>
+  <roles>Role.БазовыеПраваБСП</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.АСМ_КаталогВызовСервера</commonModules>
+  <commonModules>CommonModule.АСМ_КаталогКлиент</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <catalogs>Catalog.АСМ_Годы</catalogs>
+  <catalogs>Catalog.АСМ_КлючиМоделей</catalogs>
+  <catalogs>Catalog.АСМ_КоличествоДверей</catalogs>
+  <catalogs>Catalog.АСМ_Комплектации</catalogs>
+  <catalogs>Catalog.АСМ_Марки</catalogs>
+  <catalogs>Catalog.АСМ_Модели</catalogs>
+  <catalogs>Catalog.АСМ_Модификации</catalogs>
+  <catalogs>Catalog.АСМ_Мощности</catalogs>
+  <catalogs>Catalog.АСМ_Объемы</catalogs>
+  <catalogs>Catalog.АСМ_Поколения</catalogs>
+  <catalogs>Catalog.АСМ_ТипыКузовов</catalogs>
+  <catalogs>Catalog.АСМ_ТипыПривода</catalogs>
+  <catalogs>Catalog.АСМ_ТипыТоплива</catalogs>
+  <catalogs>Catalog.АСМ_ТипыТрансмиссии</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <dataProcessors>DataProcessor.АСМ_СписокКлючейМоделей</dataProcessors>
+  <dataProcessors>DataProcessor.АСМ_ОбновлениеКаталогаАвтомобилей</dataProcessors>
+  <informationRegisters>InformationRegister.АСМ_КлючиМоделей</informationRegisters>
+</mdclass:Configuration>

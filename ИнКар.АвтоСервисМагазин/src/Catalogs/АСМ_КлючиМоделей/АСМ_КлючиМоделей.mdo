@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c305b9b-e425-45f0-ab74-d9bb7c163062">
+  <producedTypes>
+    <objectType typeId="98ecfe18-73f0-4f47-a314-643381e2177f" valueTypeId="7d3f852b-692e-4c9e-8030-2db1470d95fb"/>
+    <refType typeId="0ff9d7be-63a3-482a-a26d-d18a4720fc34" valueTypeId="d4eda292-f454-4da0-897a-f6d5616adc90"/>
+    <selectionType typeId="b747771d-411c-4831-a310-8ea0b6c714b8" valueTypeId="9588acee-13b4-4906-bbfd-043b3ace8e7a"/>
+    <listType typeId="13134b53-8368-4d99-b4ea-491806a6fcd6" valueTypeId="af6e23a6-22f7-4190-b8ca-0646d04ae063"/>
+    <managerType typeId="a13a90d4-002f-4a69-a77c-9789b7784b7e" valueTypeId="6a55b978-5f5d-49d4-9d2d-57eabe3b5839"/>
+  </producedTypes>
+  <name>АСМ_КлючиМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автокаталог) Ключи моделей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_КлючиМоделей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_КлючиМоделей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ключ модели</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ключи моделей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АСМ_КлючиМоделей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.АСМ_КлючиМоделей.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="5c88113e-48b6-4e75-bb8d-68f30f553ff2">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Марки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f67f25bf-eb11-4baa-8634-d657e39804db">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Модели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1155e669-080e-46e0-8b16-9d93af661573">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробно</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1dfac2e-6d80-4fcb-bbcd-b48b61e69a5c">
+    <name>БезМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85747aac-0191-4577-adc7-9927eb01ab7b">
+    <name>БезМаркиБезМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="00e710da-3d02-4081-b26f-24b89d896f61">
+    <producedTypes>
+      <objectType typeId="a2fb5f20-bf88-4f6f-9df6-b937f539ac54" valueTypeId="074b80e0-4165-4b0f-8d71-b938e3ab367c"/>
+      <rowType typeId="8fb5a5b6-9ab1-4d51-aa68-1d3ef52c9d8d" valueTypeId="67f25055-2fca-432e-bcae-a8cce8d35393"/>
+    </producedTypes>
+    <name>Комплектации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектации</value>
+    </synonym>
+    <attributes uuid="c95abffd-0941-42fa-8d11-05f683238d8b">
+      <name>Комплектация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.АСМ_Комплектации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8bd22b30-7eb9-44f0-8b6d-81987d6756a7">
+      <name>Совместимо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Совместимо</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d36ee29b-8116-4ecb-8b5f-4448a1182acd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d04b7f8-1eb8-4ce1-bf81-ea6e4ffa3178">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

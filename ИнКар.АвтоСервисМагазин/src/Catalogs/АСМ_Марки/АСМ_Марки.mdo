@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f7bc510-d2bc-4b20-a103-5e042c43dd6c">
+  <producedTypes>
+    <objectType typeId="c0be79ae-91c2-4cb5-9be3-348b33b26aa9" valueTypeId="2995b279-1103-43b3-bcf0-a441d8528397"/>
+    <refType typeId="5e758d7e-9367-45a2-8bf5-1b6c371ef886" valueTypeId="1442acc1-fb8b-4774-ab6f-d9a47f8e942f"/>
+    <selectionType typeId="de60077a-8aba-474e-861a-1a3a5ede8b47" valueTypeId="ffb4ad9f-113e-4da9-b8ba-b2ca5eb7d3f9"/>
+    <listType typeId="92cbafcd-bc68-41b9-a36a-7a6bd8da109a" valueTypeId="7144a1eb-435f-4c17-99e8-a1f158cd32af"/>
+    <managerType typeId="b3e188f1-da11-4337-b8f4-6ddf47e44396" valueTypeId="3763d05c-ef67-4d5e-a0fc-3f7aca0723b7"/>
+  </producedTypes>
+  <name>АСМ_Марки</name>
+  <synonym>
+    <key>ru</key>
+    <value>(АСМ) Марки автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Марки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Марки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Марка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Марки автомобилей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

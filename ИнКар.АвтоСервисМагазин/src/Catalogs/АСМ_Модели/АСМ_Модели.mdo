@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c68717e-bf6f-466e-b4f8-d4a22d7631ed">
+  <producedTypes>
+    <objectType typeId="79386ec4-9159-4311-850f-2e43afc71269" valueTypeId="de165ed4-fdb1-4813-95dc-a36bb05e63c0"/>
+    <refType typeId="7a09dc78-9c77-4aa7-b13b-23682c323390" valueTypeId="e5fa0d54-0807-42a9-89fb-9e06387149d3"/>
+    <selectionType typeId="06326f51-e798-42e6-bf4f-de2d7cfceb5a" valueTypeId="a77dd3f9-d8f7-4ddc-b212-56511e553c78"/>
+    <listType typeId="6565365b-b7d9-4c57-a9c0-c697c667dbe3" valueTypeId="fbd34973-0fdb-4e35-b386-c302ebafebcc"/>
+    <managerType typeId="a09ca326-10f4-477d-877a-ac6e0885aa13" valueTypeId="2d03387c-6178-4b3e-8ba8-5e863890a874"/>
+  </producedTypes>
+  <name>АСМ_Модели</name>
+  <synonym>
+    <key>ru</key>
+    <value>(АСМ) Модели автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АСМ_Модели.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АСМ_Модели.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Модель</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модели автомобилей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9e859757-8406-4ba1-b444-4bf76ca1b198">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АСМ_Марки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
