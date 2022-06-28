@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7a1c63d-dd8c-495c-9c0b-ccbd66c7a4cf">
+  <name>МП_ЮлаВыборКатегории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юла выбор категории</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

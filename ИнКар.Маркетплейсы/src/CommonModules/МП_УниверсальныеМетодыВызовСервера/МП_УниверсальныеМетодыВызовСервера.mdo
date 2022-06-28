@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26e2c8b5-d04f-4c96-b55d-f0f949a5de9c">
+  <name>МП_УниверсальныеМетодыВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальные методы (вызов сервера)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ae8735a9-8881-4764-9043-462ab796bff1">
+  <producedTypes>
+    <objectType typeId="569dc166-10a3-4891-9945-78ea55ec78e5" valueTypeId="e1105155-037f-4df1-92a1-c59a653230b5"/>
+    <refType typeId="3bb946fc-af79-42aa-91d0-d174014d7d18" valueTypeId="17748b93-7cf3-45ed-8344-ea4258bcde69"/>
+    <selectionType typeId="922effdd-e4a1-48ef-88da-0584b2e81198" valueTypeId="8f1fe896-cc2d-4eaa-9951-78da39ada6d0"/>
+    <listType typeId="aa9a69fe-a726-4110-b59d-479c341d434b" valueTypeId="1704fd5c-24af-4126-9f75-b44ca6c37d50"/>
+    <managerType typeId="86503de1-1aff-4e97-930b-c2b2b4ba6131" valueTypeId="a26fbc1a-848e-4c10-9e69-7b69198ddd53"/>
+  </producedTypes>
+  <name>Склады</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <hierarchical>Checked</hierarchical>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <tabularSections uuid="375abdd9-f728-4bb6-bb07-f83c2c325fdd">
+    <producedTypes>
+      <objectType typeId="14f18d4e-fcbf-4afa-8a90-587be7b0ef5f" valueTypeId="2f7453e9-44e8-4c91-84ed-7d1048bf2ae5"/>
+      <rowType typeId="42619d6b-a759-4d23-946f-6eb5b17c8dd3" valueTypeId="6a927169-d8a8-4c84-847d-f000c622281a"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="cd345ec0-d703-41f2-be6f-d6ee0b52e57a">
+      <name>Тип</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>EnumRef.ТипыКонтактнойИнформации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="d9d9501d-ca36-4d61-829c-85789718fe48">
+      <name>Представление</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>500</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="bd4c0096-db6c-426b-9e67-9278799b7a43">
+      <name>Город</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

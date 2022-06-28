@@ -1,0 +1,38 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://autoload.avito.ru" elementFormQualified="true" attributeFormQualified="false">
+	<objectType name="Ad">
+		<property name="ID" lowerBound="1" upperBound="1" form="Element">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="100"/>
+		</property>
+		<property name="AvitoId" type="xs:integer"/>
+		<property name="Title" type="xs:string"/>
+		<property name="Description" type="xs:string" form="Element"/>
+		<property name="Brand" type="xs:string"/>
+		<property name="Price" type="xs:integer"/>
+		<property name="Availability" type="xs:string"/>
+		<property name="Condition" type="xs:string"/>
+		<property name="DateBegin" type="xs:date" lowerBound="0" form="Element"/>
+		<property name="DateEnd" type="xs:date" lowerBound="0" form="Element"/>
+		<property name="ListingFee" type="xs:string" lowerBound="0" form="Element"/>
+		<property name="AdStatus" type="xs:string" lowerBound="0" form="Element"/>
+		<property name="ManagerName" type="xs:string"/>
+		<property name="AllowEmail" type="xs:string"/>
+		<property name="ContactPhone" type="xs:string"/>
+		<property name="Address" type="xs:string"/>
+		<property name="Category" type="xs:string"/>
+		<property name="TypeId" type="xs:string"/>
+		<property name="AdType" type="xs:string"/>
+		<property name="OEM" type="xs:string"/>
+		<property xmlns:d3p1="http://autoload.avito.ru" name="Images" type="d3p1:Images"/>
+	</objectType>
+	<objectType name="Ads">
+		<property xmlns:d3p1="http://autoload.avito.ru" name="Ad" type="d3p1:Ad" upperBound="-1"/>
+		<property name="formatVersion" default="3" form="Attribute"/>
+		<property name="target" default="Avito.ru" form="Attribute"/>
+	</objectType>
+	<objectType name="Images">
+		<property xmlns:d3p1="http://autoload.avito.ru" name="Image" type="d3p1:Image" upperBound="-1"/>
+	</objectType>
+	<objectType name="Image">
+		<property name="url" form="Attribute"/>
+	</objectType>
+</package>

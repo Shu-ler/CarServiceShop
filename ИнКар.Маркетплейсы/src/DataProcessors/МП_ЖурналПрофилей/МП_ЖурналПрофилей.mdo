@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e01bd238-e3b1-47c5-9267-0f59d6729177">
+  <producedTypes>
+    <objectType typeId="ffbfac27-114c-4ac9-8ce2-c013a4af3bef" valueTypeId="60c16df6-1c00-4fee-903d-df13402fc7d2"/>
+    <managerType typeId="d2fb2445-7c2d-4b4e-aea2-81afbc7a0fc1" valueTypeId="142cbcfb-b3e4-4850-b839-9afee849466d"/>
+  </producedTypes>
+  <name>МП_ЖурналПрофилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили маркетплейсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МП_ЖурналПрофилей.Form.Форма</defaultForm>
+  <forms uuid="e747b3e0-2f35-47b7-8cf9-79d46dce898e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

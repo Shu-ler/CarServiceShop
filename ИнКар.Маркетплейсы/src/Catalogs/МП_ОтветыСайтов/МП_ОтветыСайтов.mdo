@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd29bb40-d188-425b-b5b4-6ba63bc5861b">
+  <producedTypes>
+    <objectType typeId="f5bb9baa-fd12-4990-9caa-faef03223c4d" valueTypeId="a59e546b-495b-460a-a423-a15764942b98"/>
+    <refType typeId="f3951701-e08b-40f3-8c11-7f94f25f430a" valueTypeId="a3e49f74-01e1-4234-8849-247e730339de"/>
+    <selectionType typeId="87777754-531f-4a84-9024-630fe201a87c" valueTypeId="a20185a6-a232-456a-8032-402c8a8a00bb"/>
+    <listType typeId="d52448e0-1f09-4643-806b-c4ea614c5474" valueTypeId="82cae8b0-6574-4666-8f49-888953ab247b"/>
+    <managerType typeId="3c98130b-096e-4c37-88c1-b555734eba26" valueTypeId="74cf8877-3590-4476-8fe0-43aea2855db5"/>
+  </producedTypes>
+  <name>МП_ОтветыСайтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответы сайтов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МП_ОтветыСайтов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус или ответ сайта</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы и ответы сайтов</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>64</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

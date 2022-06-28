@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57829323-9e06-49cf-a233-e2ec0c254315">
+  <name>ДляТехническогоСпециалиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Для технического специалиста</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.МП_ОтветыСайтов</content>
+  <content>InformationRegister.МП_АвитоСтатусыЗагрузок</content>
+  <content>DataProcessor.МП_НастройкаХарактеристикТоваров</content>
+  <content>InformationRegister.МП_Объявления</content>
+  <content>Catalog.МП_ЮлаКатегории</content>
+  <content>Catalog.МП_ЮлаПодкатегории</content>
+  <content>Catalog.МП_ЮлаТипыДеталей</content>
+  <content>Catalog.МП_ЮлаНазванияДеталей</content>
+  <content>Catalog.МП_ЮлаРазмещенияОбъявлений</content>
+  <parentSubsystem>Subsystem.МП_Маркетплейсы</parentSubsystem>
+</mdclass:Subsystem>

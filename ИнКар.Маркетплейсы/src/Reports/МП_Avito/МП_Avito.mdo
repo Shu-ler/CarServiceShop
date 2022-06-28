@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cb6946a-5c8c-415d-9569-a355ebfafc17">
+  <producedTypes>
+    <objectType typeId="4c93c6e9-f7c7-48cd-86ce-ebac2b65518d" valueTypeId="faaec5b4-9d3b-4377-9e7c-2192b2165ab6"/>
+    <managerType typeId="a0e5fa15-7101-4972-b3c9-45070346934d" valueTypeId="4aba27af-ba7a-43a6-a3b9-dd36fe35e468"/>
+  </producedTypes>
+  <name>МП_Avito</name>
+  <synonym>
+    <key>ru</key>
+    <value>Avito</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.МП_Avito.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ea1ee602-c438-4325-ba31-de1f8e27c51f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

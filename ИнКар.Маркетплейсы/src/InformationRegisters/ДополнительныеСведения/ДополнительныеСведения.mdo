@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8e7fbc7-f4f2-47f6-8cb2-6cc2a5725ae6" extendedConfigurationObject="3ad5d8a7-3071-46aa-aebf-306bdb67983b">
+  <producedTypes>
+    <selectionType typeId="c80423a0-c3ef-4412-8daa-0fdbddca1101" valueTypeId="9074fa27-3100-42dd-ab93-83a12015dd7d"/>
+    <listType typeId="a61aa36e-610c-4fb0-bfb5-3efbf74e7504" valueTypeId="61c8e062-a95d-4ee0-8902-29c8b0253488"/>
+    <managerType typeId="3d783751-d42f-4b01-a7c0-fc1db116ae13" valueTypeId="c440d2cd-0163-42a5-971a-690f0918b697"/>
+    <recordSetType typeId="a635f0c8-6fca-4515-8b0c-251952abc7f6" valueTypeId="f9b87c2b-7ab7-4a14-a682-386cbab4cfc7"/>
+    <recordKeyType typeId="8abfb942-4ac5-46bd-992f-d17c83b26370" valueTypeId="608164ae-e0c2-44fc-9f29-e4b021e6f0ef"/>
+    <recordType typeId="92762b04-b2bf-47ab-bcd6-7a1addad3009" valueTypeId="c3f590b2-3685-4473-8542-a9c138b7611b"/>
+    <recordManagerType typeId="7946f0bd-a44e-477f-a389-6d0a7a918bec" valueTypeId="05ebb2a3-676d-4703-91f8-29cf414b70c2"/>
+  </producedTypes>
+  <name>ДополнительныеСведения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="a081ed1e-7a36-4520-ac6d-75f6073f040f" extendedConfigurationObject="ab7ef662-71c1-4d51-9f0f-ea8c5ea3df8a">
+    <name>Значение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.ДополнительныеРеквизитыИСведения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="e667fb98-3717-429a-9ca2-c5bb969cf742" extendedConfigurationObject="cb954476-c551-4a06-9bcd-18d67ba47dc8">
+    <name>Объект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>BusinessProcessRef</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCalculationTypesRef</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>TaskRef</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfAccountsRef</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="c73095ba-a20d-4a70-9bd8-21da4c2504d1" extendedConfigurationObject="79201015-bfae-463e-81f1-0ae2d3066f3f">
+    <name>Свойство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

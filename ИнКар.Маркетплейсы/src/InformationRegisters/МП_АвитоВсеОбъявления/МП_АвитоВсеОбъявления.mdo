@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b32a60c1-99e7-40dc-8a4a-43c118999d3f">
+  <producedTypes>
+    <selectionType typeId="c885d73a-fa47-44c3-adf4-13d8a5a331a3" valueTypeId="d21b2a75-e6ff-4fd3-a500-7ce2a48ee525"/>
+    <listType typeId="cfd99ba4-c62e-43d7-b7a6-d89af08308ff" valueTypeId="2901c025-35da-4cd8-aae7-769c0a1a30e3"/>
+    <managerType typeId="006e1523-69ab-485b-ac3e-2ee0dec13940" valueTypeId="20dd4203-e619-4a24-870c-becaa4dda6f4"/>
+    <recordSetType typeId="fc5633ac-2bf4-4f57-8ae9-475e2971b49a" valueTypeId="b2a5f99b-f3a4-44ab-8f2f-d5b76ab960fa"/>
+    <recordKeyType typeId="18f4ed33-4b7f-4b7f-961b-950df349349a" valueTypeId="f766b90c-c3a0-41f3-9d4c-c3bfa03e41de"/>
+    <recordType typeId="83ace286-bedc-4e42-ae84-a3cb182eea5f" valueTypeId="a0f0e4fd-b1a0-4a3b-a8d7-3a521253e2c7"/>
+    <recordManagerType typeId="efe03993-5800-4391-bc27-a33dca939e4d" valueTypeId="49a15b45-b857-406b-a6b5-d4d7ba3cc450"/>
+  </producedTypes>
+  <name>МП_АвитоВсеОбъявления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объявления на Avito</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.МП_АвитоВсеОбъявления.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.МП_АвитоВсеОбъявления.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Объявление на Avito</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Объявления на Avito</value>
+  </listPresentation>
+  <resources uuid="4dbcfc1d-d5e4-48ae-8b92-bd86fb14bf49">
+    <name>НазваниеОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название объявления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="977b8d3e-ee80-4b50-ba0f-1b5a771c70c4">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="17ed414e-7410-4c64-bbb7-8612cbbc3aba">
+    <name>КатегорияОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория объявления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="37b814b6-e2d5-4944-be1e-f17b23778098">
+    <name>СтатусОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус объявления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1f7f08a7-497f-4bef-9ab2-71badcc7b072">
+    <name>URLАдресОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>URLАдрес объявления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="89b7e928-4e16-43f7-903e-004faf3a7c18">
+    <name>ИдентификаторАвтозагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор автозагрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6475cddd-ff9e-4de4-838a-13f705a6c048">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bc0749d9-bb77-4a3e-ab1c-e19f58639523">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="66ed3d93-1131-4780-9aa7-320b885e958e">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_Профили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ee22597f-8bb6-4fb8-861e-e191fa0b792a">
+    <name>ИдентификаторАвито</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор Авито</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6844e7a0-39a1-49df-8ea8-3146c695873e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3cce1d5a-e142-4842-b369-9a2d64746692">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

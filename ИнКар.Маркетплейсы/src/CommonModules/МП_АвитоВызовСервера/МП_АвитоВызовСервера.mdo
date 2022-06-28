@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10da4f1d-5d4c-43c8-90be-1c4589fae105">
+  <name>МП_АвитоВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авито (вызов сервера)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

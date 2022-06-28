@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50ba0b11-e98e-4448-b436-9e0acbaad172">
+  <producedTypes>
+    <refType typeId="19b0a780-bfb6-4695-8a33-047acc86bd9f" valueTypeId="90be933f-1ae2-48e7-87ed-2d2888915a09"/>
+    <listType typeId="8faf7ef0-55b4-429f-9c3c-c0d9a34c35af" valueTypeId="f4cc9bdf-7187-4a3a-8fe9-62fdb4eb647e"/>
+    <managerType typeId="f06f2217-b9ec-4265-9f19-35afceeb1567" valueTypeId="0e4ce35f-bcdb-4517-b99e-7a7b577df054"/>
+  </producedTypes>
+  <name>МП_АвитоВидыОбъявлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МП Авито) Виды объявлений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b676699a-20fa-450d-b67f-d28ae6d46757">
+    <name>ТоварПриобретенНаПродажу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар приобретен на продажу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecb31f3c-2995-41f0-9703-4c88b2c22135">
+    <name>ТоварОтПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар от производителя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

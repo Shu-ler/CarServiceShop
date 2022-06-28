@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da42b995-92d9-4f06-945f-2ab9ca398e59">
+  <producedTypes>
+    <objectType typeId="52fce265-0c62-43e0-93b1-9be35e8de03c" valueTypeId="fb2d57cd-cc9f-4a59-9ff8-869dc4a075aa"/>
+    <refType typeId="1596067d-270d-49c5-863c-c9116d9572d0" valueTypeId="10fb0e47-2131-4b43-b7df-6a4f6377f240"/>
+    <selectionType typeId="c0e08fd4-6f29-4dcd-857d-07c606896c8d" valueTypeId="9387a462-c40a-46bc-af8d-49fad0d5daa2"/>
+    <listType typeId="8bb123f7-0d45-4deb-af4f-6083cad5217b" valueTypeId="2d85be70-8f77-4479-9796-7904fc196630"/>
+    <managerType typeId="1ca5008f-7ae5-46d7-ba09-395c31930b8f" valueTypeId="d45f9b74-0110-481a-9624-bcc86bc9e9c7"/>
+  </producedTypes>
+  <name>МП_ЮлаКатегории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юла - категории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МП_ЮлаКатегории.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МП_ЮлаКатегории.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Юла - категория товаров</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Юла - категории товаров</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

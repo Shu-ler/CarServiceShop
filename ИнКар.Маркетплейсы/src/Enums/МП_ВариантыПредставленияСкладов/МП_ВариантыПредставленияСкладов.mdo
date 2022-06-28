@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b907d66-fd67-4def-a354-ae8869203d39">
+  <producedTypes>
+    <refType typeId="e295b9e1-1fef-480e-afba-56612d822a3d" valueTypeId="121ccd3a-c178-474e-b179-0c8bade060c5"/>
+    <listType typeId="a87a299e-757d-43a7-8729-d8b8f1c95806" valueTypeId="f5bb649b-beaa-40d5-a495-03a85947668f"/>
+    <managerType typeId="16ac2223-aa1f-4093-bde3-cb9a105baa03" valueTypeId="6d978d88-8f11-4521-a7c8-069144100aca"/>
+  </producedTypes>
+  <name>МП_ВариантыПредставленияСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты представления складов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="db4d90d0-4a0b-4e31-812f-0501fa38ece6">
+    <name>БезАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только склад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f2e4391-e53b-4456-87c9-5f851e5e4db1">
+    <name>СкладГород</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад, город</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04cdb2d1-4825-404e-85a6-bb4a18302c84">
+    <name>СкладТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад, телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63923a90-acaa-4a1b-a441-c60dbc60ece1">
+    <name>СкладТелефонГород</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад, телефон, город</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bbb0125-2821-4e2f-910e-e57aae77b1b0">
+    <name>СкладТелефонАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад, телефон, адрес</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

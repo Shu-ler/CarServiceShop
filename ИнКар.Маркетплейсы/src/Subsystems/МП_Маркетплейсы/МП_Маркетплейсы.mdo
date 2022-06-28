@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36aefb29-c7fa-47be-a2fa-08483d04a620">
+  <name>МП_Маркетплейсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговля через маркетплейсы</value>
+  </synonym>
+  <comment>Торговля через маркетплейсы</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МП_МаркетплейсыВиктор</picture>
+  </picture>
+  <content>CommonCommand.МП_ПанельОтчетовМаркетплейсы</content>
+  <content>CommonCommand.МП_ЖурналПрофилей</content>
+  <subsystems>ЯндексМаркет</subsystems>
+  <subsystems>Авито</subsystems>
+  <subsystems>Дром</subsystems>
+  <subsystems>YML</subsystems>
+  <subsystems>ДляТехническогоСпециалиста</subsystems>
+</mdclass:Subsystem>

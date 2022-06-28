@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2810d4a9-e1e8-444b-8645-a693253ecec1">
+  <producedTypes>
+    <refType typeId="e53220ef-320a-4a55-8b86-ca6b933d3e47" valueTypeId="5b4b584c-7a12-4cba-b406-28d8eb107b02"/>
+    <listType typeId="c499a72b-b41c-464e-8763-a35e917fb4a4" valueTypeId="63557fa0-5f14-4607-b7c5-807cf7d16172"/>
+    <managerType typeId="2dc92411-d219-449e-802a-0b2587ea0f4f" valueTypeId="481c3078-da5f-4f8c-bfd9-38f4a4fb4d27"/>
+  </producedTypes>
+  <name>МетодыОбеспеченияПотребностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="99e416bf-7b44-4136-82bc-1315acd4550f">
+    <name>ПоддержаниеЗапасаМинМакс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

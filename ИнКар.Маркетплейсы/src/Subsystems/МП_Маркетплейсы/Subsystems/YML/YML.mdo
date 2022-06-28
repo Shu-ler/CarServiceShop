@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb8d37f1-f5b6-4a70-9b75-a0378f9ea438">
+  <name>YML</name>
+  <synonym>
+    <key>ru</key>
+    <value>VK, OK и прочее</value>
+  </synonym>
+  <comment>Обмены на основе стандарта YML</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.МП_КатегорииYML</content>
+  <content>DataProcessor.МП_ЗаполнениеКатегорийYML</content>
+  <parentSubsystem>Subsystem.МП_Маркетплейсы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2eff6f0b-7a92-4834-b865-d55b87f79ce8">
+  <producedTypes>
+    <selectionType typeId="9d387e10-6b46-4e2e-931d-4e8b224200f8" valueTypeId="fdbcd5a1-cb72-4e08-8367-8f75cc769428"/>
+    <listType typeId="5c4736b1-2634-4cd5-b88b-fe190da940cd" valueTypeId="3a5b90ba-1f7f-4cc3-b49f-eebd66537a11"/>
+    <managerType typeId="c77c6346-d396-4161-b818-0f29732f0f2f" valueTypeId="12b34486-0f55-4492-9fb9-3ac5ea07c81d"/>
+    <recordSetType typeId="ebe092cc-fc50-480e-b538-1b4b4b6cc012" valueTypeId="81e62674-2dcc-449d-97be-7144303ac9cf"/>
+    <recordKeyType typeId="0af47247-00b4-4e3e-990d-ca7f45c91c4a" valueTypeId="2be6c82c-44f1-4acf-a943-bff5d1f47033"/>
+    <recordType typeId="6f0f44d0-4cc8-4ff3-9093-76bca5862aa4" valueTypeId="7a3acc0e-71e5-42dc-9a21-960df0728ebf"/>
+    <recordManagerType typeId="0a372465-4001-4544-889c-f6a8a54a5622" valueTypeId="08e15ba2-b69a-4747-809f-385ebde6865c"/>
+  </producedTypes>
+  <name>МП_СостояниеПрофилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние профилей маркетплейсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Дата обновления</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Даты обновления </value>
+  </listPresentation>
+  <resources uuid="678df703-2acc-40f0-a445-17cf432b9998">
+    <name>ПоследнееОбновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее обновление</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="08af8ace-20e0-4874-a970-51239d62fd99">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество объявлений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3099429e-0497-4a09-ab91-d89357144ab8">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_Профили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

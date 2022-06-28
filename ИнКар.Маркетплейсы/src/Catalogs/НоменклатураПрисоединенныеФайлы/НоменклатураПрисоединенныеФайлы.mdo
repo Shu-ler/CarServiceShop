@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d584b38-8074-413a-bbf2-559513230a42">
+  <producedTypes>
+    <objectType typeId="66a7de95-d7a7-415b-871d-99984b08baa8" valueTypeId="4a7a7a6a-efc7-49fe-acd0-774854d44a02"/>
+    <refType typeId="b9c83de3-6049-45f9-bf6d-6a0377d95a61" valueTypeId="7d1f3b33-ee4a-4097-a49a-2838bf385f9a"/>
+    <selectionType typeId="990d775b-6c27-4467-ad45-5fa6ec6768b7" valueTypeId="f655302d-60a9-421c-9807-943b079a3e4b"/>
+    <listType typeId="d14bb3c8-2edf-4d10-ac5a-7daf93b64748" valueTypeId="1900b376-ba58-44b2-9e27-824380f3459e"/>
+    <managerType typeId="78ad8f8d-3e3f-42cf-895d-f2f784be4aa7" valueTypeId="76ee65d2-fd37-401e-b92b-c13b9d14db14"/>
+  </producedTypes>
+  <name>НоменклатураПрисоединенныеФайлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="1dac829d-ddf6-49f3-a1cd-7eab7e82883d">
+    <name>ВладелецФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="dec8c906-bd3f-45a7-a57f-bdd0b9c247db">
+    <name>ПутьКФайлу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b2b7ec0d-a2c8-4b48-a2f5-b647f95a6fb3">
+    <name>Расширение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6c255528-8b30-460e-9cb1-aead80e53a56">
+    <name>ТипХраненияФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыХраненияФайлов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="06d88bca-ea3a-4b52-973e-e395e3f68d8d">
+    <name>Том</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ТомаХраненияФайлов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a85f427-0672-448c-9ff5-40d8b2208ded">
+  <producedTypes>
+    <objectType typeId="bf713b39-ea7f-4246-97f3-547f88a39a27" valueTypeId="82acacf9-68aa-4813-8ff4-eec7da4d4671"/>
+    <managerType typeId="78298368-d5e9-4eaa-8570-b9b46efec0cf" valueTypeId="dd3d6e76-5d48-47e1-88ee-9085a1ca0f5b"/>
+  </producedTypes>
+  <name>МП_Авито</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авито</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.МП_Авито.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2eefd3eb-f852-4e47-a790-4c2160fc84b5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faffbaf1-5769-4182-8dd8-c6adc096e802">
+  <producedTypes>
+    <objectType typeId="8052a9d6-2161-4e0b-a07f-af44100348fd" valueTypeId="4f7c779b-cbba-404c-a43c-534c2b9d7dba"/>
+    <refType typeId="9b321adb-7e5d-4731-ae25-a32cab3b5b70" valueTypeId="8cac1f24-c4e4-4021-9fe6-278d28e2f484"/>
+    <selectionType typeId="db26dd20-40ef-411f-bd77-c55094a61cad" valueTypeId="004d46be-1701-44b9-9a29-cf24f792dfa8"/>
+    <listType typeId="0ea2f5d7-0384-40e1-8f3b-0a993c755ffa" valueTypeId="ac646725-b8ce-479d-ad8d-48d19520001e"/>
+    <managerType typeId="9aa6cf34-bc8b-41cb-a7fa-d95183c20efe" valueTypeId="05e1c745-6f3e-48d9-ad30-a94e8c93ac37"/>
+  </producedTypes>
+  <name>МП_ЮлаРазмещенияОбъявлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юла - размещения объявлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МП_ЮлаРазмещенияОбъявлений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МП_ЮлаРазмещенияОбъявлений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Юла - размещение объявления</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Юла - размещения объявлений</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МП_ЮлаРазмещенияОбъявлений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.МП_ЮлаРазмещенияОбъявлений.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c3114aed-b0f4-4502-ac25-ee9edd5abcc5">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_ЮлаКатегории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc995ec0-940d-4210-bc9c-b8e51f7fb1d4">
+    <name>Подкатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подкатегория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_ЮлаПодкатегории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17b7d2c8-542a-463e-a439-a344c0edd68c">
+    <name>ТипДетали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип детали</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_ЮлаТипыДеталей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fd284d1-7c8c-425c-a335-efce76a77100">
+    <name>ГруппаДеталей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа деталей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_ЮлаГруппыДеталей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e6e77ae-78a5-4482-ad7c-c40555afdd93">
+    <name>НазваниеДетали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название детали</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_ЮлаНазванияДеталей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f976a95-5db9-41fd-ad88-4de0a9a96b21">
+    <name>КодыРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды размещения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="812719fe-8fd1-4be1-9079-f21898748812">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ccb7eb4e-9cb4-4555-abd2-8011a00a30b4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

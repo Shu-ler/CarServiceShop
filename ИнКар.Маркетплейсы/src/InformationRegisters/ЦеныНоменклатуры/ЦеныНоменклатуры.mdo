@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ac30306-116f-4f36-8ec0-47df3af5bdc0">
+  <producedTypes>
+    <selectionType typeId="dcddbcb0-2a92-40eb-8796-f00496cd48f6" valueTypeId="0a14086c-1c32-4e97-a6e2-728c70584736"/>
+    <listType typeId="99672e8e-9cc2-471c-b62b-2d9943308d7c" valueTypeId="a838af45-f1dd-479e-866b-6e97c7de547a"/>
+    <managerType typeId="98dd36ea-1940-4a8c-b47f-7a5cd367b81f" valueTypeId="469c0dcf-778f-4055-a194-b13f23fc2d3b"/>
+    <recordSetType typeId="5a84af46-e036-43f5-983d-9c1389cce920" valueTypeId="37a9eb1b-f024-4d8c-bc18-41097c8c0fe6"/>
+    <recordKeyType typeId="3eed4a50-aab2-48b3-9561-564ef5038ff7" valueTypeId="d4eb3e8b-fd00-45b1-b16c-abff98002962"/>
+    <recordType typeId="8390b7e4-3903-4163-9caf-b2f02b8c7e90" valueTypeId="7073732c-bc4e-4f49-9822-9d0ec15cc226"/>
+    <recordManagerType typeId="77baaf25-db10-4441-8662-933ad18743fe" valueTypeId="8dd1958e-a9cf-460f-877f-c8487ab0e65a"/>
+  </producedTypes>
+  <name>ЦеныНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="d34f36d2-c5dd-4820-acb1-b56a7d833775">
+    <name>Цена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="67298c89-e51b-497d-8776-09616faff3a0">
+    <name>Упаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УпаковкиЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="08820b82-8662-42a3-bd8f-376074c3024d">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="f6332200-8770-4da2-ba91-5fa62ab3bd6b">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="e5e6bb79-86e1-4bae-b578-2fa5d08a03bc">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="a9595f8a-8363-446c-8f44-9e35c61702ab">
+    <name>ВидЦены</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыЦен</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

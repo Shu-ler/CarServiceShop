@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f8e828-e514-4938-9798-3bac3f2ceb82">
+  <producedTypes>
+    <refType typeId="ff764475-b817-40e3-a84b-ad99fab3c557" valueTypeId="80d2dcfa-910e-4d32-86a4-fb696def3e45"/>
+    <listType typeId="9d4f7ffb-9eda-44ec-8b8b-301fefed9368" valueTypeId="528a4ba5-a8b7-4463-8d50-dce89e5180c8"/>
+    <managerType typeId="d7654f6c-717f-498d-bb52-8552f1569e1a" valueTypeId="8687b778-dc29-4e9f-b2f5-2d54b26a778c"/>
+  </producedTypes>
+  <name>МП_ВариантыПубликацииМоделейАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты публикации моделей автомобилей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c83baab2-2f6f-4f23-8c1f-b6ce5c4960f6">
+    <name>НеПубликовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не публиковать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61512413-7bc0-4080-83cd-95a273860e6b">
+    <name>ОднойСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одной строкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67e02b0e-4a85-4bfe-83fd-d06f85a53591">
+    <name>СПострочнойРазбивкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>С построчной разбивкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="331fe0d9-d7e6-458c-912a-d7a287d1342d">
+    <name>СПострочнойРазбивкойРусскийАнглийский</name>
+    <synonym>
+      <key>ru</key>
+      <value>С построчной разбивкой, русский английский варианты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

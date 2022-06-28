@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="770659e0-91ef-49cb-9aa3-86e2b3de2591">
+  <name>МП_Авито</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автозагрузка Авито</value>
+  </synonym>
+  <comment>Автозагрузка Авито, версия 3</comment>
+  <namespace>http://autoload.avito.ru</namespace>
+</mdclass:XDTOPackage>

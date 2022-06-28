@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2711fa58-514c-41dc-9d53-ed0262c0685b">
+  <producedTypes>
+    <objectType typeId="51ac536f-dda3-471b-a15a-d819cd9961b5" valueTypeId="1880a295-a814-4a6e-9f18-f77124373f02"/>
+    <refType typeId="0e6166af-5367-4a5a-9869-13b51aed41d1" valueTypeId="c1445b3d-6abf-4f28-ac38-6dd3aca9e9e7"/>
+    <selectionType typeId="7781fc96-3d76-4127-b3fd-dd6e330b2e66" valueTypeId="182c2cf8-8f25-491b-92bd-f2ebb7b82715"/>
+    <listType typeId="5d653c4d-1535-4538-8938-abdd1bdc7074" valueTypeId="e9bbb705-77c5-439b-93f1-a924d7f6124f"/>
+    <managerType typeId="1623265a-07c8-41e3-bc87-48fc62032a07" valueTypeId="20aee2f8-d54e-4dea-8d8b-0806a95be7e0"/>
+  </producedTypes>
+  <name>МП_БеруКампании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кампании Яндекс.Маркет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МП_БеруКампании.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МП_БеруКампании.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МП_БеруКампании.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.МП_БеруКампании.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8cc2b169-0c52-48ff-86ee-a474d866ee27">
+    <name>КлиентID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0766bc5e-f3e2-48f4-93c2-0ea3ffe0cb52">
+    <name>IDМагазина</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID магазина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3e3d187-fe24-4c3d-9231-d5a1a8747672">
+    <name>ТокенДляApi</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен для API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dab3ccb8-2fb2-42c4-baef-55301879e839">
+    <name>IDКампании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер кампании</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85423a19-b173-4193-9e11-9f1fa7984561">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="26824f07-e123-4f30-9310-f219cd385983">
+    <name>ОтладочныйТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отладочный токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="871b9344-8216-4fd6-bd81-2b673659d759">
+    <name>ИспользоватьОтладочныйТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отладочный токен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="12077dc3-74c3-4074-972b-e359304fe9b3">
+    <producedTypes>
+      <objectType typeId="ca659e5c-5806-4d21-95c2-0e0b4cf380c5" valueTypeId="64a4b28d-de18-4381-a747-784563460826"/>
+      <rowType typeId="3afa1d71-58ae-447d-bbbf-f563e21e74ba" valueTypeId="dce781dc-8461-45e7-9d7b-47d5898f7627"/>
+    </producedTypes>
+    <name>ПараметрыИРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры и реквизиты</value>
+    </synonym>
+    <comment>Устанавливает соответствие параметра маркетплейса реквизиту базы данных</comment>
+    <attributes uuid="c4684ae2-a222-454a-89a4-edafc25cbfba">
+      <name>ПараметрМаркетплейса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр маркетплейса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="38a4713f-dda5-42af-9264-d68ec793dd7a">
+      <name>Класс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект базы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b214248b-b267-4322-b513-d5376ac86a28">
+      <name>Поле</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поле базы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2307037c-db17-45d7-8537-b7672c5e148f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c7c6d4d-3430-46c7-a3e3-ae9c12a696cb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c534e37f-a9f9-477d-b585-38e45da4d5fd">
+    <name>Кампании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кампании (профили)</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

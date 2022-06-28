@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8337fb76-ee16-4e0c-ab4a-0809a21c1600">
+  <producedTypes>
+    <objectType typeId="72a076ce-5d28-49ae-bd17-96cd371117d3" valueTypeId="18ccf0c3-b8b6-4b04-8cab-86d7be4ea84b"/>
+    <refType typeId="0b48ed34-3269-4791-9adc-19f6051c3c52" valueTypeId="66ecea5a-aa6c-498d-9682-dff559102fac"/>
+    <selectionType typeId="1932e818-ab56-42f6-ad61-84e3f0d6613e" valueTypeId="431a72a4-247d-4608-9049-3e9d11da784b"/>
+    <listType typeId="e8b1c07e-691b-46fb-9d2f-9b751f59144f" valueTypeId="5f973b5e-54f5-4bb0-a584-f1f15374982b"/>
+    <managerType typeId="38ac8516-1ac8-4f37-9b7d-d21a18148191" valueTypeId="733f7717-da71-40bf-9c74-3e2e9494d099"/>
+  </producedTypes>
+  <name>ТомаХраненияФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="59669799-533c-4062-8fe7-446dcee466b0">
+    <name>ПолныйПутьWindows</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

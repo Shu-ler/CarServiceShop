@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8fefa087-a000-4f4c-8a29-52a8c59cc962">
+  <producedTypes>
+    <refType typeId="da9672a6-cf4b-4189-8d79-a7edb34d2390" valueTypeId="6c79b3e4-9791-4ce3-a9e2-7f8b04f8e9d7"/>
+    <listType typeId="1efd9bd3-c94f-4fb7-89a0-0a9a42d9a294" valueTypeId="90aefa60-3a3b-47cd-ad3d-fdaa01aa3f9f"/>
+    <managerType typeId="5b5f547c-4126-4e45-988e-8e5897b55284" valueTypeId="e464fc94-ce89-4a2f-a0ab-a73325277958"/>
+  </producedTypes>
+  <name>ТипыХраненияФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e2e304c9-3eeb-434c-8beb-33d0a7eaf517">
+    <name>ВИнформационнойБазе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cc818f49-d878-44c8-89e1-9d72ad818e91">
+    <name>ВТомахНаДиске</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7c6e1215-9760-4c73-9bc1-f2b4a4e6dd7f">
+  <producedTypes>
+    <objectType typeId="c98763b9-5d88-430a-82de-8f2a01b7e4c8" valueTypeId="9445d5f9-f321-407e-a118-2baff9fc54f9"/>
+    <refType typeId="ad2dee10-2dac-4b8f-9122-1480910b4a3d" valueTypeId="4d9cc6d5-d948-4895-8329-4acc6a1cac11"/>
+    <selectionType typeId="878cea75-1ec9-4945-b78d-57a846872a06" valueTypeId="ad1b7a95-464a-4579-b776-d5e4100f5b2c"/>
+    <listType typeId="50711cb9-487f-4e74-b8a0-1a7ac9d16905" valueTypeId="88f0e504-08d9-409f-a7f6-807b7d17a3ad"/>
+    <managerType typeId="a2911edf-3c88-4d2a-aae4-6cfb9f72ab04" valueTypeId="3bcfdd94-e4da-45df-9479-6115478278cd"/>
+  </producedTypes>
+  <name>ТоварныеКатегории</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <hierarchical>Checked</hierarchical>
+    <hierarchyType>Checked</hierarchyType>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <descriptionLength>100</descriptionLength>
+</mdclass:Catalog>

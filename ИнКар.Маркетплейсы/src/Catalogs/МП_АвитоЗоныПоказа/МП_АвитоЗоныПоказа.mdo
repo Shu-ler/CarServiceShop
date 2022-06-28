@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08dc0d47-9dde-4d27-afba-fd014f6fa8ba">
+  <producedTypes>
+    <objectType typeId="b070a27c-a191-4a13-98ba-7b3ea24d0e80" valueTypeId="bfd44a5f-afdc-499b-9be3-b75bd8508a30"/>
+    <refType typeId="e5557c4a-c8e6-48fe-871d-b7ccd5637f75" valueTypeId="0479a0a5-e926-4c82-9f90-0ba45666bfc2"/>
+    <selectionType typeId="8d68b508-c3b8-4486-8c4b-b6840b436328" valueTypeId="65f5d421-c308-4b30-bcc3-c366db1b5aba"/>
+    <listType typeId="459af164-0641-482f-8d30-6226185c2179" valueTypeId="755fb185-8794-4e9b-8181-a8a8148178bb"/>
+    <managerType typeId="34930b19-ebe3-4c51-9c37-b4d460f4881e" valueTypeId="7bb264f5-e821-4189-9bc1-c88668b9e62b"/>
+  </producedTypes>
+  <name>МП_АвитоЗоныПоказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны показа (Avito)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МП_АвитоЗоныПоказа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

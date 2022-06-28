@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddc38bf2-fa2a-4bb9-8d2f-9379a6b9b21d">
+  <producedTypes>
+    <objectType typeId="2b0517d1-6566-4472-afa0-138975fbfed0" valueTypeId="436aa05d-1bc6-40c5-81dc-e6f5905b9a1b"/>
+    <managerType typeId="28e3c34f-afce-46ee-8877-938f91eaae9e" valueTypeId="e2191388-5457-4b65-aa63-95e76612de53"/>
+  </producedTypes>
+  <name>МП_ЗаполнениеКатегорийYML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение категорий YML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МП_ЗаполнениеКатегорийYML.Form.Форма</defaultForm>
+  <forms uuid="6aac3f3a-49bc-4c8d-b5b4-4af383be082d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

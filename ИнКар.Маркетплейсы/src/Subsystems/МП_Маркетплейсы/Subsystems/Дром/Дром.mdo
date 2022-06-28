@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a3e0491-e81a-4c01-86df-e7290994e193">
+  <name>Дром</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дром</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.МП_Маркетплейсы</parentSubsystem>
+</mdclass:Subsystem>

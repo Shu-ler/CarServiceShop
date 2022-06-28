@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1a139f7b-a9f1-4ff0-adfd-5375425e0bd1">
+  <producedTypes>
+    <objectType typeId="c118e313-7258-42ba-b560-55085a734285" valueTypeId="584c47ca-e8d3-4a5c-ad51-35381416a0ee"/>
+    <refType typeId="91626f63-2a09-4a13-84ff-6828336335d8" valueTypeId="7a14821e-e66f-4984-a3e5-2e3348f1c0c1"/>
+    <selectionType typeId="b0cb098b-045f-484e-adbd-26ec81f3094e" valueTypeId="ac7ad9e6-e3ea-4a29-9e58-13e0744278c9"/>
+    <listType typeId="05566bd1-7f00-470b-87ec-6db2dd10739a" valueTypeId="f0ee31c1-3356-4b7d-adf4-2778ae7aa2fa"/>
+    <managerType typeId="30801a70-3419-45e5-bd94-20e97956b3ab" valueTypeId="195c7a50-23ea-4210-8895-10877edd1a39"/>
+    <containerType typeId="0b5e3a31-b86f-4c96-b90e-d7d7479ae421" valueTypeId="ccd8f5b8-6a26-44f2-b6ff-ef316cfca124"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>AnyRef</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+  <attributes uuid="df22db8e-8d8e-4bac-835f-8060c2bc6244">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="13585fd5-9ace-438c-963a-db5d75034e52">
+    <name>Заголовок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>75</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

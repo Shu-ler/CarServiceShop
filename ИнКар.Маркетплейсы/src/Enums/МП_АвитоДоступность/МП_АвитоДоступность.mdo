@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3ce40ef-1837-41e6-9c8c-9eb4bc387a29">
+  <producedTypes>
+    <refType typeId="dcdfc961-ad90-4f80-8899-53799e0af399" valueTypeId="d71b31f0-5b78-42ef-9b55-28f2574835d5"/>
+    <listType typeId="9ec08085-babe-42db-84b6-f8a628057981" valueTypeId="2afdc00c-b63c-4ee5-a397-259e68d776fa"/>
+    <managerType typeId="08210f11-7e6e-4784-b887-ffb2f5314fea" valueTypeId="a1a290d1-788b-445a-88de-52c4c535bbe3"/>
+  </producedTypes>
+  <name>МП_АвитоДоступность</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МП Авито) Доступность</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="90d97209-dbd4-4b2a-b15c-345ab3db629f">
+    <name>ВНаличии</name>
+    <synonym>
+      <key>ru</key>
+      <value>В наличии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55d1caf2-49de-4f1d-a7f1-fc0aa1809653">
+    <name>ПодЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Под заказ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

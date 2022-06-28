@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fcead55-978b-4f51-b445-ea8946696da1">
+  <producedTypes>
+    <objectType typeId="bd790d3a-5638-4894-aca5-513303461cc5" valueTypeId="f68b6503-725c-4686-a88e-e8009d924707"/>
+    <managerType typeId="d6f8abf8-d835-48b7-b913-e68c8ccd19f1" valueTypeId="05bb65c2-0fc3-42bc-af9d-92a78659b2bb"/>
+  </producedTypes>
+  <name>МП_Гомырка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гомырка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МП_Гомырка.Form.Форма</defaultForm>
+  <forms uuid="8f949c4e-605b-4050-86ca-27f8aa9fb214">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

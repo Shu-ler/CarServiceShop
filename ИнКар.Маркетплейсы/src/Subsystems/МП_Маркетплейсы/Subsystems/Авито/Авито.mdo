@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b79d17df-18ca-4247-895f-e9ccc648e682">
+  <name>Авито</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авито</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.МП_АвитоПлатныеУслуги</content>
+  <content>Catalog.МП_АвитоПодкатегорииТоваров</content>
+  <content>CommonModule.МП_АвитоAPIКлиентСервер</content>
+  <content>CommonModule.МП_АвитоВызовСервера</content>
+  <content>Catalog.МП_АвитоЗоныПоказа</content>
+  <content>DataProcessor.МП_АвитоОбновлениеЗонПоказа</content>
+  <content>InformationRegister.МП_АвитоВсеОбъявления</content>
+  <parentSubsystem>Subsystem.МП_Маркетплейсы</parentSubsystem>
+</mdclass:Subsystem>

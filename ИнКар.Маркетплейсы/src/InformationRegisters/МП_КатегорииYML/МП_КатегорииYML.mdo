@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e736ee2b-a0e2-49b8-9b4b-fe8f7650bb8c">
+  <producedTypes>
+    <selectionType typeId="4ac50981-fd12-4518-8ea4-700f66491c14" valueTypeId="06b3208f-e981-48c5-b8bd-5663fbf1e9eb"/>
+    <listType typeId="85ca1fd1-68f5-46db-bb9a-eac47db97d0c" valueTypeId="4e12ec27-652c-47cd-856e-ba4501c943d7"/>
+    <managerType typeId="0e422724-46c4-4e60-8f45-07d9b1082eb8" valueTypeId="3078381b-46f0-41b4-a6ae-22680b8ed8eb"/>
+    <recordSetType typeId="4a96543f-2488-4aa8-8ccc-170e2af8ded7" valueTypeId="5f7857a1-9b4a-40f7-8853-b8fc58cbd068"/>
+    <recordKeyType typeId="f1d06ef6-5d73-4819-b67a-272b7ac3a991" valueTypeId="0e744f54-be49-4626-a09d-a4d8b6c042a0"/>
+    <recordType typeId="58e4bec1-1c06-4065-a21a-9019f79156c5" valueTypeId="ed775b56-8f0d-4bb5-87e9-88123dc2d129"/>
+    <recordManagerType typeId="46e2b6cf-3287-46eb-9b16-3857a79ee07c" valueTypeId="b35b6e90-fbf0-437b-a8b4-98495821c5ba"/>
+  </producedTypes>
+  <name>МП_КатегорииYML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории YML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.МП_КатегорииYML.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Категория объявления</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Категории объявлений</value>
+  </listPresentation>
+  <resources uuid="6a751d5b-636d-4e0d-ad9d-916a7e56e227">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="425c3e64-c2cc-4010-8fb7-68be91c2afa2">
+    <name>parentId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Parent id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aadc7d52-b8f5-489f-8ce5-f0166527dc83">
+    <name>АвитоПодкатегорияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подкатегория товаров Avito</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_АвитоПодкатегорииТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="30d68504-5dff-4a24-bc0d-7620ff5fff6f">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="41068a22-3621-4d57-9581-9710c2376b39">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="10647ec1-261a-4271-b432-39b7fec8dd98">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

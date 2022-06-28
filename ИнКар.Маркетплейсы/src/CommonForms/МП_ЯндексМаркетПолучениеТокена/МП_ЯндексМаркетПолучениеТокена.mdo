@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6308caef-a86e-4580-ae88-5813cde5aa05">
+  <name>МП_ЯндексМаркетПолучениеТокена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение токена</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

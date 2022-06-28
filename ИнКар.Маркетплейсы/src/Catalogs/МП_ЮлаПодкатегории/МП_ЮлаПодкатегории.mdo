@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdb492f1-deb6-4f98-87bb-5d09d260d628">
+  <producedTypes>
+    <objectType typeId="8c00e192-e9df-4061-8a66-986c8553ce6e" valueTypeId="ba0bbc9d-3182-430c-a8b1-11b3bc49a09d"/>
+    <refType typeId="a4127d4c-b2d0-4af5-b0ba-a7ee5218beee" valueTypeId="c88021ab-c52d-49bc-9d51-b43ebe77051e"/>
+    <selectionType typeId="84df2979-20e1-4caf-896c-bc55cd66bfeb" valueTypeId="5bb88ed2-a234-4c3b-9923-246bf47aaf3f"/>
+    <listType typeId="ee52713d-4df5-48f0-856f-71a28582a1c8" valueTypeId="a865c5c3-8bdf-4ad7-b546-0038ebba9982"/>
+    <managerType typeId="b1a71bba-20d9-434b-9ebf-335c84470d44" valueTypeId="4a08bacf-01cc-42f3-a3c8-0e00cc8f7857"/>
+  </producedTypes>
+  <name>МП_ЮлаПодкатегории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юла - подкатегории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МП_ЮлаПодкатегории.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МП_ЮлаПодкатегории.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Юла - подкатегория товаров</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Юла - подкатегории товаров</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.МП_ЮлаКатегории</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="39c6ae34-e3f5-40fb-9ccd-aff541171177">
+    <name>Тег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

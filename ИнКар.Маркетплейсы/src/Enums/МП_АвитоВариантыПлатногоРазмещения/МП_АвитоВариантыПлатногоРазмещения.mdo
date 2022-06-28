@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00ca5a0c-11fe-4498-b7fb-4fd8c7954ba8">
+  <producedTypes>
+    <refType typeId="9fc54cb2-5a9b-4e79-9361-148f215667e2" valueTypeId="cf561091-4c21-474e-882a-4fe15ea73b6d"/>
+    <listType typeId="4c29324a-5af4-46c9-82e8-02971275378a" valueTypeId="5c7e6fe8-041d-4104-a993-612482f0777d"/>
+    <managerType typeId="c66ee8b1-ea39-4dc5-8407-b5df76cc4436" valueTypeId="df4c2450-3326-4d0b-8fa5-6edf9ce2f740"/>
+  </producedTypes>
+  <name>МП_АвитоВариантыПлатногоРазмещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МП Авито) Варианты платного размещения</value>
+  </synonym>
+  <comment>&lt;ListingFee>PackageSingle&lt;/ListingFee></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>ListingFee	
+Вариант платного размещения — одно из значений списка:
+
+«Package» — размещение объявления осуществляется только при наличии подходящего пакета размещения;
+«PackageSingle» — при наличии подходящего пакета оплата размещения объявления произойдет с него; если нет подходящего пакета, но достаточно денег на кошельке Авито, то произойдет разовое размещение;
+«Single» — только разовое размещение, произойдет при наличии достаточной суммы на кошельке Авито; если есть подходящий пакет размещения, он будет проигнорирован.
+Если элемент пуст или отсутствует, то значение по умолчанию — «Package».
+
+&lt;ListingFee>PackageSingle&lt;/ListingFee></value>
+  </explanation>
+  <enumValues uuid="57d01b32-787b-4d10-b057-93025291f1b6">
+    <name>Package</name>
+    <synonym>
+      <key>ru</key>
+      <value>Package</value>
+    </synonym>
+    <comment>Размещение объявления осуществляется только при наличии подходящего пакета размещения</comment>
+  </enumValues>
+  <enumValues uuid="4d51c9f2-b470-41e0-aaf1-7a4c15e44494">
+    <name>PackageSingle</name>
+    <synonym>
+      <key>ru</key>
+      <value>Package single</value>
+    </synonym>
+    <comment>При наличии подходящего пакета оплата размещения объявления произойдет с него; если нет подходящего пакета, но достаточно денег на кошельке Авито, то произойдет разовое размещение</comment>
+  </enumValues>
+  <enumValues uuid="6dcb024c-b086-4727-b5b0-8c450846c787">
+    <name>Single</name>
+    <synonym>
+      <key>ru</key>
+      <value>Single</value>
+    </synonym>
+    <comment>Только разовое размещение, произойдет при наличии достаточной суммы на кошельке Авито; если есть подходящий пакет размещения, он будет проигнорирован</comment>
+  </enumValues>
+</mdclass:Enum>

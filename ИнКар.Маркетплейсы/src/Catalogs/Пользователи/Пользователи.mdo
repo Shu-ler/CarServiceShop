@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e0cd828-77ed-4945-9bec-bc68c2c64a54">
+  <producedTypes>
+    <objectType typeId="47a338f8-36a7-4ef2-b692-c227927c6226" valueTypeId="a250dd53-a2f0-41f4-87d1-3d8f5ec696d1"/>
+    <refType typeId="389a7e46-c93d-4a0a-b5fd-3bbd9787e14e" valueTypeId="72723fbf-7c2a-49b7-b894-18cdd3c0d935"/>
+    <selectionType typeId="ded10969-2e08-40fd-b069-51d05fea88fd" valueTypeId="fcfdd14d-a749-42bf-b5c1-cc26190b30ce"/>
+    <listType typeId="41d43fcd-077f-46b5-94fd-56c61e3c03b2" valueTypeId="480aae6e-8ce7-4635-8472-7719897565b8"/>
+    <managerType typeId="2e0dde3a-8610-481e-9845-2732098dfa05" valueTypeId="5e439d5d-6c29-4809-b899-b3e4c6bc6e65"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="640598b9-4bfa-40c3-956c-53a0e65bb66f">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ФизическоеЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

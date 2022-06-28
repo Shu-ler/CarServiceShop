@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e60c3391-e4ea-4ffe-96fb-41efc1b7bd8d">
+  <producedTypes>
+    <refType typeId="83cc3f71-c015-4921-9bc7-8994f558ece5" valueTypeId="a4e563e5-c2a9-47d1-a52b-84370f551e9d"/>
+    <listType typeId="6554d33d-085b-4ff3-8938-7e3266ef7126" valueTypeId="045facd3-e5e9-4d0d-93c7-06a693343916"/>
+    <managerType typeId="b7678255-34ee-4e45-8ae4-e99fcc8024d8" valueTypeId="9b1decba-4673-4297-b701-b1f991d7cda2"/>
+  </producedTypes>
+  <name>МП_ВидыМаркетплейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды маркетплейсов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6fdbd757-ee6b-4e17-8833-3b3d605aeb06">
+    <name>VK</name>
+    <synonym>
+      <key>ru</key>
+      <value>vk.com</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74c20fcd-f3ce-4451-89e4-d89ea9d6cef3">
+    <name>ДРОМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>drom.ru</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a75bc785-a0a8-42fb-8716-d594801c9070">
+    <name>Avito</name>
+    <synonym>
+      <key>ru</key>
+      <value>avito.ru</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3cb98f18-3a2d-463e-b19d-62a96cfd260a">
+    <name>СберМегаМаркет</name>
+    <synonym>
+      <key>ru</key>
+      <value>sbermegamarket.ru</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ebafbd6-d734-4622-80e5-103d3e3b6ea4">
+    <name>Юла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юла (youla.ru)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e851d5d-9a32-4952-b3fd-f699e825efa6">
+    <name>ДубльГис</name>
+    <synonym>
+      <key>ru</key>
+      <value>2ГИС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

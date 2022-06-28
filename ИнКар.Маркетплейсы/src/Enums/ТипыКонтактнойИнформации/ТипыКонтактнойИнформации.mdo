@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="208d3e9d-e038-4257-8731-e713ec538dbe">
+  <producedTypes>
+    <refType typeId="4c1d4e17-3cb7-43da-89d5-11bcf5f7ccf9" valueTypeId="31fe59b4-0af1-4fd2-97e2-a7c4503ec257"/>
+    <listType typeId="9a1d8b00-e081-48d2-a242-09a2ba01a849" valueTypeId="c9ef21af-5137-4932-b710-3200c35e1115"/>
+    <managerType typeId="290b2702-2e57-494a-9c8d-a0909ca0dd6b" valueTypeId="b0c7284d-b3d0-481a-a06c-5b3ee5467451"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="56bf4b99-a238-4572-b3c0-056717f52416">
+    <name>Адрес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7a23edf2-382b-44db-8ba3-c71aaf540acc">
+    <name>Телефон</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

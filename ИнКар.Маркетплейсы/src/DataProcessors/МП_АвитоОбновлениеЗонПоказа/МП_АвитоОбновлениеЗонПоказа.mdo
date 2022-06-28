@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e560c2b1-feaa-4466-934a-c7f43d9b64df">
+  <producedTypes>
+    <objectType typeId="e137c52a-b975-431d-829b-74310def4dfb" valueTypeId="9b669442-0ffc-407f-b862-e3c8bdf3dfaf"/>
+    <managerType typeId="6320f0c0-0050-4777-bc12-66083ff8d765" valueTypeId="4062670d-4b62-450b-a712-efb091fe759c"/>
+  </producedTypes>
+  <name>МП_АвитоОбновлениеЗонПоказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление зон показа Avito</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МП_АвитоОбновлениеЗонПоказа.Form.Форма</defaultForm>
+  <forms uuid="5eb32660-ec60-4e0b-ae18-7831a662d615">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

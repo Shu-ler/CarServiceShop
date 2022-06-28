@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5fa5115-e2c9-465b-a504-55b851590ec9">
+  <producedTypes>
+    <selectionType typeId="7f66b7f2-3b47-4edf-b448-2d9fb88af39f" valueTypeId="451c8fde-1c23-41f4-8632-5c7cb794aebc"/>
+    <listType typeId="606955cd-e590-45a3-8f97-fb0603188596" valueTypeId="3ec47a9a-cfc7-4d04-b640-f0eaaa5e679b"/>
+    <managerType typeId="bf3bdb8a-7482-4e55-b5bb-7e86c7789642" valueTypeId="0a4128f2-127f-4dd4-93d6-bd465f905f58"/>
+    <recordSetType typeId="aeda8173-3fe4-4fff-925b-cac27dda1bd8" valueTypeId="1bb2feba-cc21-4ae3-a780-88ff88acf787"/>
+    <recordKeyType typeId="d7cdeea2-e077-4b69-aaea-7b86178b6ef2" valueTypeId="97109a7c-4a5b-4cc1-8395-7eff8656670e"/>
+    <recordType typeId="c97e0a42-2bd8-43f1-bd37-d4fbcae00fee" valueTypeId="af7152be-d5cd-4700-843f-04a605536a50"/>
+    <recordManagerType typeId="637000ad-ce74-42e4-bcdb-880dbac333fb" valueTypeId="9b85b547-567c-4e7e-924d-42de540f449f"/>
+  </producedTypes>
+  <name>УдалитьМП_АвитоОбъявления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объявления на Авито</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УдалитьМП_АвитоОбъявления.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УдалитьМП_АвитоОбъявления.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Объявление на Avito</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Объявления на Avito</value>
+  </listPresentation>
+  <resources uuid="ca3362f2-2049-4368-a3c2-f699561a97c2">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МП_Профили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="26b8a835-e72c-4d4e-82d9-40b16661e43c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="75d4f07a-6e21-4583-a4ae-4c036a2b7cab">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="143b4827-85dc-4f73-a2e1-790270c4ad43">
+    <name>НазваниеОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название объявления</value>
+    </synonym>
+    <comment>&lt;Title>Бампер передний Audi A4 MW0218681&lt;/Title></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6a45e001-e98e-4f2b-9870-b45a2c4644b3">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment>&lt;DateBegin>2015-12-24&lt;/DateBegin></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата и время начала размещения объявления — можно задать одним из двух способов согласно стандарту ISO 8601:
+
+только дата в формате &quot;YYYY-MM-DD&quot; (MSK);
+или дата и время в формате &quot;YYYY-MM-DDTHH:mm:ss+hh:mm&quot;.
+Важно: объявление будет опубликовано в указанную дату (если указана только дата) или после указанного времени (если заданы дата и время) в течение часа (если нет препятствующих этому настроек режима вашей выгрузки).
+
+Если элемент не задан, объявление будет опубликовано сразу же после первого получения XML-файла с ним</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6f1c6816-5260-485e-b482-0455bff41d40">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment>&lt;DateEnd>2079-08-28&lt;/DateEnd></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата и время, до которых объявление актуально — можно задать одним из двух способов согласно стандарту ISO 8601:
+
+только дата в формате &quot;YYYY-MM-DD&quot; (MSK);
+или дата и время в формате &quot;YYYY-MM-DDTHH:mm:ss+hh:mm&quot;.
+Если значение в прошлом, то новое объявление не будет опубликовано, а существующее — будет снято с публикации.
+
+Важно: в режиме автозагрузки по умолчанию значение элемента DateEnd учитывается несколько раз в час, а при загрузке по расписанию — во время каждой загрузке.
+
+Дата окончания размещения объявления на сайте Авито является стандартной (время окончания можно увидеть в Личном кабинете или отчетах Автозагрузки). Если после окончания публикации объявление всё ещё присутствует в XML-файле и DateEnd не указан или указано значение в будущем, то объявление будет снова активировано. Если в элементе DateEnd указана только дата (без времени) и она совпадает с датой окончания размещения объявления, то реактивация объявления не происходит.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3a3be4e7-9c2b-4ce2-b787-48502b1bf9a5">
+    <name>ВариантПлатногоРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант платного размещения</value>
+    </synonym>
+    <comment>&lt;ListingFee>PackageSingle&lt;/ListingFee></comment>
+    <type>
+      <types>EnumRef.МП_АвитоВариантыПлатногоРазмещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.МП_АвитоВариантыПлатногоРазмещения.EnumValue.Package</value>
+    </fillValue>
+  </resources>
+  <resources uuid="faeb148d-f9f7-4b09-b6ef-9e73556de38d">
+    <name>ПлатнаяУслуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платная услуга</value>
+    </synonym>
+    <comment>&lt;AdStatus>x10_7&lt;/AdStatus></comment>
+    <type>
+      <types>CatalogRef.МП_АвитоПлатныеУслуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bb8f2f6b-b132-4fba-825d-fd1d1db05126">
+    <name>ВозможностьНаписатьСообщениеПоОбъявлениюЧерезСайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможность написать сообщение по объявлению через сайт</value>
+    </synonym>
+    <comment>&lt;AllowEmail>Нет&lt;/AllowEmail></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ=Нет; БИ=Да</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ=Нет; БИ=Да</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="16bfb021-ce22-485c-9786-1b70a9f21d6e">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+    <comment>&lt;ManagerName>Иван Петров-Водкин&lt;/ManagerName></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя менеджера, контактного лица компании по данному объявлению — строка не более 40 символов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3011d1d4-d20e-4a64-9fae-29dec55de212">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <comment>&lt;ContactPhone>+7 495 777-10-66&lt;/ContactPhone></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контактный телефон — строка, содержащая только один российский номер телефона; должен быть обязательно указан код города или мобильного оператора</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e385417a-6ad6-46ce-bc91-053670fd136f">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <comment>&lt;Address>Россия, Тамбовская область, Моршанск, Лесная улица, 7&lt;/Address></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный адрес объекта — строка до 256 символов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3b1224be-eaf8-4244-ba20-103bac483dce">
+    <name>КатегорияОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория объявления</value>
+    </synonym>
+    <comment>&lt;Category>Запчасти и аксессуары&lt;/Category></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория объявлений — строка: «Запчасти и аксессуары»</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>Запчасти и аксессуары</value>
+    </fillValue>
+  </resources>
+  <resources uuid="ce5c6f8b-ede9-4d94-a60e-0f4c2d4f6ad3">
+    <name>ПодкатегорияТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подкатегория товара</value>
+    </synonym>
+    <comment>&lt;TypeId>16-814&lt;/TypeId></comment>
+    <type>
+      <types>CatalogRef.МП_АвитоПодкатегорииТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="20d93e84-bcc0-4a59-a3b9-ea9c93085fe1">
+    <name>ВидОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объявления</value>
+    </synonym>
+    <comment>&lt;AdType>Товар от производителя&lt;/AdType></comment>
+    <type>
+      <types>EnumRef.МП_АвитоВидыОбъявлений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.МП_АвитоВидыОбъявлений.EnumValue.ТоварПриобретенНаПродажу</value>
+    </fillValue>
+  </resources>
+  <resources uuid="4cec803f-e014-420c-8d0d-aa8b59fdce4e">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <comment>&lt;Condition>Новое&lt;/Condition></comment>
+    <type>
+      <types>EnumRef.МП_АвитоСостояние</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.МП_АвитоСостояние.EnumValue.Новое</value>
+    </fillValue>
+  </resources>
+  <resources uuid="4bca9b0c-6759-4ea0-ae47-efc1dba04c87">
+    <name>Доступность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность</value>
+    </synonym>
+    <comment>&lt;Availability>Под заказ&lt;/Availability></comment>
+    <type>
+      <types>EnumRef.МП_АвитоДоступность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.МП_АвитоДоступность.EnumValue.ВНаличии</value>
+    </fillValue>
+  </resources>
+  <resources uuid="db0082b6-5ae3-4db9-b84e-f33db5a8bd36">
+    <name>OEM</name>
+    <synonym>
+      <key>ru</key>
+      <value>OEM</value>
+    </synonym>
+    <comment>&lt;OEM>84501SC020&lt;/OEM></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер детали OEM — строка до 50 символов (разрешены цифры, латиница и знак дефиса).
+
+Элемент может быть использован в подкатегориях:
+
+Запчасти / Для автомобилей
+Запчасти / Для мототехники
+Запчасти / Для спецтехники</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3997130f-a12a-4816-893c-6488b4d8bb18">
+    <name>СтатусОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус объявления</value>
+    </synonym>
+    <comment>Статус объявления на сайте (можно указать несколько значений через запятую)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="81422526-542a-4b77-82f6-63960ec9a03f">
+    <name>URLАдресОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL - адрес объявления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="dbd8d931-a20f-4e54-81c8-7fe162ab1358">
+    <name>СтатусРазмещенияНаСайте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус размещения на сайте</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b9766b0c-27d8-4cb5-ae46-373c14dd4ae3">
+    <name>ОбщийСтатусОбработкиОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий статус обработки объявления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1cadf0b6-a534-4702-beb6-e8440fa25a8d">
+    <name>СтатусПредварительнойОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус предварительной обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="04a2de28-b7e4-432b-86e1-7f4fa0199505">
+    <name>ИдентификаторАвито</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор авито</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7eaf56c7-005f-468e-8306-c55caea245bf">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="31ba822e-664c-476e-a12e-918b488fb90a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3eb52e1-6af0-48dd-ba74-be676a8561f2">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

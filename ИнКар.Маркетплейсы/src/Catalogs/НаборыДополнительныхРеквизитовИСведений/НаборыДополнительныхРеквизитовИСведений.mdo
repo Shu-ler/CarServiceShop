@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4675c888-259a-4de3-ace9-d06e505ad862" extendedConfigurationObject="0a136ad9-22ad-4ba7-a31a-40a193b49d26">
+  <producedTypes>
+    <objectType typeId="f11538e3-2c48-40cb-ac1e-b8801e5689a1" valueTypeId="7fffc237-7ebc-4389-8027-3ce4fc6f4a32"/>
+    <refType typeId="69239c39-8826-4a7f-b341-aeb907f5498d" valueTypeId="0ef86d62-b515-408f-aa20-2ade8d7fe66a"/>
+    <selectionType typeId="dceb17da-045c-4d7a-a919-1e39bb71b1e7" valueTypeId="5914882b-d51a-4d2f-a61e-9840e09f8664"/>
+    <listType typeId="fef69db9-c2f1-4b79-8439-57a826703b08" valueTypeId="80eac34c-4d27-4e06-a67f-5d8c316938f3"/>
+    <managerType typeId="3795e6ce-c7a0-46f2-ba13-f24de3b698a9" valueTypeId="aeec18e3-f75c-490f-99d3-e29071b00855"/>
+  </producedTypes>
+  <name>НаборыДополнительныхРеквизитовИСведений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <hierarchical>Checked</hierarchical>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <tabularSections uuid="eeb8ff74-c633-46ec-a53b-3f4213cac12c" extendedConfigurationObject="b456d820-8034-4381-960d-66d9f86b0a4b">
+    <producedTypes>
+      <objectType typeId="3008b960-679d-4440-9171-b18296b98b23" valueTypeId="988f20b3-fa9e-46c7-b999-026bb088e52e"/>
+      <rowType typeId="5605e0a0-69de-4fe9-86f5-c3ad971cb464" valueTypeId="68b6acf8-f1c5-4950-b0df-6facda34e56e"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="9de66f40-358e-41b4-a9e3-2e94b2659328" extendedConfigurationObject="bd55fd03-cf67-4333-a554-98e03d18f780">
+      <name>Свойство</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

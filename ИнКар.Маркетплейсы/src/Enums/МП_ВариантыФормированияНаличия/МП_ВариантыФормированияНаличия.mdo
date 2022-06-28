@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e34a45d2-677b-4503-b80a-159f97dca74d">
+  <producedTypes>
+    <refType typeId="bc7ee1bb-fbc9-4743-9c1f-c7a3a1932bac" valueTypeId="a7c166dc-9c8a-4c3a-a0b6-3a6028d2005f"/>
+    <listType typeId="dbcf9bd1-3615-4fbc-b31a-6456fda9bceb" valueTypeId="f9f69f6a-dcc4-40c0-875f-1ddf6d848f7c"/>
+    <managerType typeId="5297863f-5ce7-45e1-b76c-972ed0fc7898" valueTypeId="d483807a-f233-41f9-90c8-25ef4214567d"/>
+  </producedTypes>
+  <name>МП_ВариантыФормированияНаличия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты формирования наличия</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="46919871-2920-4ec2-981d-4c918af997d6">
+    <name>ВсегдаВНаличии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всегда в наличии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="275492fb-24dd-42dd-a16c-fa7ea1e77f0b">
+    <name>ВсегдаПодЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всегда под заказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6706da4-b9b9-41b1-b3d6-135a9c2a1831">
+    <name>ПоГруппеСкладов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По группе складов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6c28880-bacb-46e2-b922-80e45376d133">
+    <name>ПоОсновномуСкладу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По основному складу</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

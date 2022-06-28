@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71db9c66-bb2a-4fc4-8c2c-a4b0bb3626c6">
+  <producedTypes>
+    <selectionType typeId="8fbcf824-5bce-4864-b320-20c21e4cade0" valueTypeId="031bcaf8-879e-469a-b043-ad2bd57d80f7"/>
+    <listType typeId="3d6bd2c9-5c4a-4764-8063-4c125ff2252d" valueTypeId="ff29a51e-2a27-4c80-9fa5-63ff33dec1c8"/>
+    <managerType typeId="44c3668b-cf7c-4c1a-8af8-efc877161025" valueTypeId="efe68e12-b578-4c70-8b0b-947920003947"/>
+    <recordSetType typeId="75ef1784-42ee-4cd8-8af9-18e31b07676f" valueTypeId="95ae5504-be3c-4501-a66b-e787e72d880c"/>
+    <recordKeyType typeId="72293553-6486-43e4-b24c-e3e0f05e2ffe" valueTypeId="6a096d5d-4ec6-450d-b9b2-3aad00e3ddca"/>
+    <recordType typeId="9f8c5401-ac9a-47b4-b2ef-4911ef45db0a" valueTypeId="8d3550eb-9659-4565-9483-7f799250c7b6"/>
+    <recordManagerType typeId="180d918f-b5da-4ee1-a1a1-7688d98e9765" valueTypeId="a9660fa2-0f91-4354-a3d6-d3ad07cfc9aa"/>
+  </producedTypes>
+  <name>ТоварныеОграничения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="c30df5c5-fe11-4e25-88ad-d8a0b0323554">
+    <name>МинимальноеКоличествоЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="8a734399-b75c-44a2-8150-c704cfefcda3">
+    <name>МаксимальноеКоличествоЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="777f1308-0aca-4e23-bf9c-e254dfb71386">
+    <name>МетодОбеспеченияПотребностей</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.МетодыОбеспеченияПотребностей</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <attributes uuid="6164a742-3c2f-43ce-9ad8-ce57157ef132">
+    <name>ЭтоДействующийПараметр</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <dimensions uuid="ee8dacf4-8816-442c-bdee-7b3c563b26b2">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="913745f1-f63d-4bbb-9f58-6a08f155b5e0">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="8b58e251-9412-49ab-b94e-efb08d40a001">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

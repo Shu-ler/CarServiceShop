@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="074a52a1-fd8d-4cf6-a055-bd6057435585">
+  <producedTypes>
+    <objectType typeId="48f774f7-760d-44af-ae94-994f4fa8df8a" valueTypeId="7182674e-dac1-4e57-9fe5-eec577883d89"/>
+    <refType typeId="edacfa8a-8bdf-4e44-a7c5-8b2a353eefb5" valueTypeId="cd9522e6-51ea-4f30-b1ec-c3cda7d3a926"/>
+    <selectionType typeId="8345eb02-1855-4537-b642-f6e8111fb337" valueTypeId="e79683b0-ef5d-46b9-9c87-b2b3169157b7"/>
+    <listType typeId="51aa9114-305c-4382-a610-8490d8706614" valueTypeId="5549ba17-7a8e-4099-b549-3866a3e796f3"/>
+    <managerType typeId="f7081377-f4c1-4e70-a213-c85dfb4c6297" valueTypeId="f76a9642-1757-4bbe-8b81-55b106bb4412"/>
+  </producedTypes>
+  <name>МП_ЮлаТипыДеталей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юла - типы деталей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МП_ЮлаТипыДеталей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МП_ЮлаТипыДеталей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подкатегория</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Юла - тип детали</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Юла - типы деталей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.МП_ЮлаПодкатегории</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

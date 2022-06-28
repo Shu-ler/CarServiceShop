@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="430ad67f-1936-473c-85b3-a8048ab78b68">
+  <producedTypes>
+    <objectType typeId="1c0a4859-9554-4c7b-8647-094a3c371220" valueTypeId="ade5e65d-bd1e-4df7-aa0d-6de8609a4052"/>
+    <refType typeId="5ec799ab-073e-41f5-83f9-ef58d24d2f66" valueTypeId="790b0050-17c5-43bd-9157-89e5f66e5ec8"/>
+    <selectionType typeId="6a2a7664-b052-4b72-a77c-60fc1bbfd7ce" valueTypeId="2f58245a-69af-49c8-918f-cc6cf1d0a617"/>
+    <listType typeId="489513df-084a-405c-b1eb-f3a401a30dff" valueTypeId="f0472f66-bb61-49ef-9480-d05288cab560"/>
+    <managerType typeId="3c6d1599-7b26-464a-8f64-591bfbe7b3ab" valueTypeId="01d93394-92f1-4847-b48d-71bc554ebd0d"/>
+  </producedTypes>
+  <name>СегментыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="5dc59622-f4ef-4629-832d-c6140f4fbb8c">
+    <name>МП_ПоНаличию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По наличию</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Catalog>

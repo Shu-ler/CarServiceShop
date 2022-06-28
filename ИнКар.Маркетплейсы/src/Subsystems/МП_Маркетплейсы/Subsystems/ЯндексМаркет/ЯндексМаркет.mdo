@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22c43126-51f7-4a07-82ef-12cebc111950">
+  <name>ЯндексМаркет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс.Маркет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.МП_БеруКампании</content>
+  <parentSubsystem>Subsystem.МП_Маркетплейсы</parentSubsystem>
+</mdclass:Subsystem>
