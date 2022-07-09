@@ -53,6 +53,8 @@
   <commonModules>CommonModule.АСМ_КаталогВызовСервера</commonModules>
   <commonModules>CommonModule.АСМ_КаталогКлиент</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <functionalOptions>FunctionalOption.АСМ_ВключатьНаименованияПоколенийВИмяКлюча</functionalOptions>
+  <constants>Constant.АСМ_ВключатьНаименованияПоколенийВИмяКлюча</constants>
   <catalogs>Catalog.АСМ_Годы</catalogs>
   <catalogs>Catalog.АСМ_КлючиМоделей</catalogs>
   <catalogs>Catalog.АСМ_КоличествоДверей</catalogs>

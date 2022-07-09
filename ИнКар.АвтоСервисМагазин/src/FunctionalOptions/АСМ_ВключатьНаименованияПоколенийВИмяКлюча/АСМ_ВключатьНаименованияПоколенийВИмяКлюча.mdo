@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8f1cb8f-35c4-46f7-a1f7-ecc4b645482c">
+  <name>АСМ_ВключатьНаименованияПоколенийВИмяКлюча</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включать наименования поколений в имя ключа</value>
+  </synonym>
+  <location>Constant.АСМ_ВключатьНаименованияПоколенийВИмяКлюча</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

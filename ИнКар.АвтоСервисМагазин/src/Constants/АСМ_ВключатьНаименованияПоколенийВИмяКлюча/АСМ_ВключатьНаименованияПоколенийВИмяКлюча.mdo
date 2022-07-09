@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55340829-e321-4d21-ba7f-bdbc3595ba76">
+  <producedTypes>
+    <managerType typeId="c6dcc8a1-6543-498e-a968-a6f1c9ebba28" valueTypeId="6087f4c4-780d-47ec-a1e1-bfa916c2edef"/>
+    <valueManagerType typeId="2e224901-7e96-4dcf-8e63-a9db02e8f5bd" valueTypeId="c7c1a27b-8e76-4cda-86d2-60123ef3aa03"/>
+    <valueKeyType typeId="a20a187f-3221-41f6-ab60-4b001b9d35ad" valueTypeId="a9e9bfde-7943-42ae-a144-aeddd82f1474"/>
+  </producedTypes>
+  <name>АСМ_ВключатьНаименованияПоколенийВИмяКлюча</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включать наименования поколений в имя ключа</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
