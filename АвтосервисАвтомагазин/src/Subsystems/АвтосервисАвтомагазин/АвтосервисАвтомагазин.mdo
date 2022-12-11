@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67c75361-b969-47c0-bd11-413b1e344a70">
+  <name>АвтосервисАвтомагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автосервис, магазин запчастей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КА2_Вольво</picture>
+  </picture>
+  <content>CommonCommand.ПанельОтчетовАвтосервисАвтомагазин</content>
+  <content>DataProcessor.АС2_НачальноеЗаполнение</content>
+  <subsystems>КаталогАвтомобилей</subsystems>
+  <subsystems>Автосервис</subsystems>
+</mdclass:Subsystem>

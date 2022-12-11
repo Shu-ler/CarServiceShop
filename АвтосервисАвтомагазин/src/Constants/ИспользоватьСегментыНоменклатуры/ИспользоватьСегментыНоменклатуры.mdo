@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d09c8ab7-f1ee-4365-9313-8956483d3166" extendedConfigurationObject="9af7695a-1024-4a28-b577-1b3f4c0f6010">
+  <producedTypes>
+    <managerType typeId="b271baa8-7374-44b7-b771-fb4254cc3a69" valueTypeId="f7e62c37-14be-4d31-80e8-44eff4ff6d12"/>
+    <valueManagerType typeId="69381f21-fc8d-4354-853d-908c72774911" valueTypeId="aa7b25ef-73d6-41da-9eaa-8ec214642102"/>
+    <valueKeyType typeId="bba8a47f-da00-464d-8f58-5b8c6b83c4eb" valueTypeId="8b8a9aed-3a80-4c4a-aa83-6615861c11c0"/>
+  </producedTypes>
+  <name>ИспользоватьСегментыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

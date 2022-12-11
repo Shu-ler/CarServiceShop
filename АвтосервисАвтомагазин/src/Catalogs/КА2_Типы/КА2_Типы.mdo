@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c19834a-0e62-48fd-9c24-d1f538669e54">
+  <producedTypes>
+    <objectType typeId="d5157875-1cc3-4c20-9d8f-530d4f4570a8" valueTypeId="29f19817-111e-46f1-829a-326a338bd414"/>
+    <refType typeId="8604b75a-79f8-45d6-8537-cbcb29607e9b" valueTypeId="b1d94182-e53b-468d-ae7f-39a746082603"/>
+    <selectionType typeId="f288837c-6af7-4153-9f4e-e90385f392fb" valueTypeId="cf929707-66a1-4f71-b3c3-0190178cb5eb"/>
+    <listType typeId="cc7642f4-2c0d-4cfb-a6ec-9e734c5fd6bb" valueTypeId="a787969a-fdc8-4ec7-a02c-7749ce9e5a1d"/>
+    <managerType typeId="a194fe6f-77d7-4429-87d3-60fb4959ff10" valueTypeId="ffc1b586-6704-4b97-b0af-32a98a03551f"/>
+  </producedTypes>
+  <name>КА2_Типы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Каталог автомобилей) Типы транспортных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КА2_Типы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип транспортного средства</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы транспортных средств</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КА2_Типы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КА2_Типы.Form.ФормаСписка</defaultListForm>
+  <forms uuid="17183fa5-8252-4b08-b23a-6303497c133f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="264ea272-7830-4325-bff6-31d1f04ab7fe">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e8fe811-2768-4350-b8a8-cc93eb972bb7" extendedConfigurationObject="dad11c2e-08fc-4a6b-8829-8be6c64c15fc">
+  <producedTypes>
+    <objectType typeId="cb76c949-7e14-4e4c-9318-7cb4d36dacc1" valueTypeId="630a70c2-b4ee-47bb-99ea-25ce45f881fe"/>
+    <refType typeId="af1eff4e-126e-47ae-9e54-d993aa04b55c" valueTypeId="28795c4e-0c94-498d-9e49-9ee20ab203ea"/>
+    <selectionType typeId="7c8224b3-22d8-4a79-8ff2-136e0aa93dc8" valueTypeId="d46fcbb2-61cf-492e-8b55-0947e5c164d5"/>
+    <listType typeId="d423f0c2-036e-4e15-a7cf-360c7403bb12" valueTypeId="e7505310-f4e3-4403-863b-63ce52a371d9"/>
+    <managerType typeId="824008a6-d291-4f9b-b3e9-81e6fc98d793" valueTypeId="c2f512e5-3b4b-44ac-8b04-4c9e80e15090"/>
+    <routePointRef typeId="dd96c69a-56d8-4681-848e-0004fed33509" valueTypeId="d9dc5ffc-ba49-46cb-bc4a-c6388ca6a693"/>
+  </producedTypes>
+  <name>Задание</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BusinessProcessExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:BusinessProcess>

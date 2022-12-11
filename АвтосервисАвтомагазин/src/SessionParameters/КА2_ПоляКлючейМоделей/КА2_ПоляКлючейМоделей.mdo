@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9271e7b4-389f-4c4e-ba10-72424e291c07">
+  <name>КА2_ПоляКлючейМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поля ключей моделей</value>
+  </synonym>
+  <type>
+    <types>FixedMap</types>
+  </type>
+</mdclass:SessionParameter>

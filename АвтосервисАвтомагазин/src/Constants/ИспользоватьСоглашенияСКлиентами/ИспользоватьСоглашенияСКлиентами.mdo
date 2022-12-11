@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3e065991-092a-4f4f-8036-65285837e6da" extendedConfigurationObject="d7fd733c-9c88-4994-a3d9-fd25defe1dd9">
+  <producedTypes>
+    <managerType typeId="b5bded74-5101-4ff7-855f-924e40d5eda2" valueTypeId="c98470b3-436b-4859-bb73-5633ef894734"/>
+    <valueManagerType typeId="b2620cbf-d2a8-44a5-bbbc-1491522e1a71" valueTypeId="eef280b3-a5a1-41e0-90a8-c0d5faf2f44b"/>
+    <valueKeyType typeId="02db2235-7389-4811-9f4d-c2364afb9ac0" valueTypeId="6e2db4c7-28ba-4cfc-aaf7-7c0a01d163a2"/>
+  </producedTypes>
+  <name>ИспользоватьСоглашенияСКлиентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

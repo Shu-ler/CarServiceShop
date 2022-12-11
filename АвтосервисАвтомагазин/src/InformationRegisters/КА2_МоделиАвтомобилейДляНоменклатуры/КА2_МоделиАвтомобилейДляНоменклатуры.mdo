@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1439d8f-3005-45cb-94a4-161d4443bbef">
+  <producedTypes>
+    <selectionType typeId="cdaffca4-39eb-4d14-9ad9-267a8e947029" valueTypeId="93ceacb0-878d-49fd-8364-1f0066b77a93"/>
+    <listType typeId="98d90305-1b4d-4a71-8cea-70bf2a03ada3" valueTypeId="14da9972-1060-45b5-a544-de0920b086d4"/>
+    <managerType typeId="9916a047-80a4-41af-9d37-47e8e1bc2a3d" valueTypeId="d957b44f-fc9e-41e1-b0b5-11415a331c74"/>
+    <recordSetType typeId="0b2a1ccf-7466-4a0a-82a5-d8e0a7c84328" valueTypeId="08e178c2-038c-4915-8d34-402aa77b96f4"/>
+    <recordKeyType typeId="ce6cdad5-2fa3-4c6c-b5cf-9384c2e1589a" valueTypeId="c2e6ef89-195a-4b91-a3d7-ffff08694e6f"/>
+    <recordType typeId="8c4b1f20-72e1-45fd-9d12-c4ec6ea8960a" valueTypeId="1ca89ff5-1e89-423b-8344-7e3219f1eaaf"/>
+    <recordManagerType typeId="b905917e-57a9-4b0a-ae41-c300dbd979f7" valueTypeId="f4ea5425-850f-46d6-a591-c57a9221eb2d"/>
+  </producedTypes>
+  <name>КА2_МоделиАвтомобилейДляНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Каталог автомобилей) Связи ключей моделей с номенклатурой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Связи ключей моделей с номенклатурой</value>
+  </listPresentation>
+  <resources uuid="c5523b97-6711-420e-84df-a7a687a19aa5">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d6f096c0-546d-4973-8337-89f416e6117a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e6674ab6-3141-401e-939f-78cefd164d20">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.КА2_МоделиАвтомобилейДляНоменклатуры.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="990207eb-b3a3-421e-87c8-d7059aeadd21">
+    <name>КлючМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ модели</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_КлючиМоделей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f77f14fd-7833-49f9-a31c-4fc494d0ac83">
+    <name>Совместимо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совместимо</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4f13e62b-a73f-4594-aec9-79fa475dd637" extendedConfigurationObject="bc51e744-f22b-4a4d-9db1-4032f96cd184">
+  <producedTypes>
+    <selectionType typeId="9a7c9fc4-ed34-4c76-828b-ee4d39b0d8d3" valueTypeId="997eb61b-75a7-46ef-b5c0-74d124593ac8"/>
+    <listType typeId="229e4eba-64bd-40e5-b32b-3807bcad590f" valueTypeId="165ef965-0a6b-4f4f-bf0d-1a5fcc8ff558"/>
+    <managerType typeId="2b841035-8383-41db-87f4-af3505de0c13" valueTypeId="e70fdb99-4716-4ad1-b5ab-0bcbb79afcb0"/>
+    <recordSetType typeId="fe13b4ed-2b0a-4d55-a089-f5b7f6ce90f2" valueTypeId="9a8cf536-bab3-40cd-9c2c-20110295e114"/>
+    <recordKeyType typeId="636c9690-6b69-4450-9af4-9b79ebfbe613" valueTypeId="837d384e-6414-451b-b798-5e5f8cabdd14"/>
+    <recordType typeId="f6353ffa-01e6-4a4c-817f-9081ec515717" valueTypeId="75301bd7-68e9-4f09-a098-5a8d24159e17"/>
+    <recordManagerType typeId="4f676785-f73c-4ed3-b0ff-d285069545e1" valueTypeId="aa562f0d-43f2-449a-abca-4673d07bd3c1"/>
+  </producedTypes>
+  <name>СостоянияЗаказовКлиентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <resources uuid="abee5051-e4e8-4482-9a38-411383188abc" extendedConfigurationObject="3b7c75dc-9f63-4ed2-aaa6-9baa9da4c61f">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="31360802-7e15-4014-b997-7db47c73ec20" extendedConfigurationObject="908232c3-529c-4c04-9bdd-98d3cf6d8483">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ресурс</dataPath>
+			<field>Ресурс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказКлиента</dataPath>
+			<field>ЗаказКлиента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Начало</dataPath>
+			<field>Начало</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Окончание</dataPath>
+			<field>Окончание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автомобиль</dataPath>
+			<field>Автомобиль</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусЗаказаКлиента</dataPath>
+			<field>СтатусЗаказаКлиента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИмяОбласти</dataPath>
+			<field>ИмяОбласти</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Идентификатор</dataPath>
+			<field>Идентификатор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВРаботе</dataPath>
+			<field>ВРаботе</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	КА_ЗагрузкаРесурсов.Ресурс КАК Ресурс,
+	КА_ЗагрузкаРесурсов.ЗаказКлиента КАК ЗаказКлиента,
+	КА_ЗагрузкаРесурсов.Начало КАК Начало,
+	КА_ЗагрузкаРесурсов.Окончание КАК Окончание,
+	КА_ЗагрузкаРесурсов.Автомобиль КАК Автомобиль,
+	КА_ЗагрузкаРесурсов.СтатусЗаказаКлиента КАК СтатусЗаказаКлиента,
+	КА_ЗагрузкаРесурсов.ИмяОбласти КАК ИмяОбласти,
+	КА_ЗагрузкаРесурсов.Комментарий КАК Комментарий,
+	КА_ЗагрузкаРесурсов.Идентификатор КАК Идентификатор,
+	КА_ЗагрузкаРесурсов.ВРаботе КАК ВРаботе
+ПОМЕСТИТЬ ВТЗагрузкаРесурсов
+ИЗ
+	РегистрСведений.АС2_ЗагрузкаРесурсов КАК КА_ЗагрузкаРесурсов
+ГДЕ
+	КА_ЗагрузкаРесурсов.ЗаказКлиента = &amp;Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВТЗагрузкаРесурсов.Ресурс КАК Ресурс,
+	ВТЗагрузкаРесурсов.ЗаказКлиента КАК ЗаказКлиента,
+	ВТЗагрузкаРесурсов.Начало КАК Начало,
+	ВТЗагрузкаРесурсов.Окончание КАК Окончание,
+	ВТЗагрузкаРесурсов.Автомобиль КАК Автомобиль,
+	ВТЗагрузкаРесурсов.СтатусЗаказаКлиента КАК СтатусЗаказаКлиента,
+	ВТЗагрузкаРесурсов.ИмяОбласти КАК ИмяОбласти,
+	ВТЗагрузкаРесурсов.Комментарий КАК Комментарий,
+	ВТЗагрузкаРесурсов.Идентификатор КАК Идентификатор,
+	ВТЗагрузкаРесурсов.ВРаботе КАК ВРаботе
+ИЗ
+	ВТЗагрузкаРесурсов КАК ВТЗагрузкаРесурсов
+СГРУППИРОВАТЬ ПО
+	ВТЗагрузкаРесурсов.Ресурс,
+	ВТЗагрузкаРесурсов.ЗаказКлиента,
+	ВТЗагрузкаРесурсов.Начало,
+	ВТЗагрузкаРесурсов.Окончание,
+	ВТЗагрузкаРесурсов.Автомобиль,
+	ВТЗагрузкаРесурсов.СтатусЗаказаКлиента,
+	ВТЗагрузкаРесурсов.ИмяОбласти,
+	ВТЗагрузкаРесурсов.Комментарий,
+	ВТЗагрузкаРесурсов.Идентификатор,
+	ВТЗагрузкаРесурсов.ВРаботе</query>
+	</dataSet>
+	<parameter>
+		<name>Ссылка</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ссылка</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Записан на установку</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Начало</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Окончание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Ресурс</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Автомобиль</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Комментарий</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

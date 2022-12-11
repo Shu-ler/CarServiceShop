@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2716ff5d-d602-4d62-9e45-e1c378e62830">
+  <producedTypes>
+    <refType typeId="508d449f-bdb6-4bb4-95f2-903efe7671b3" valueTypeId="a15d002c-07ea-4336-ae42-d5ffff624fe8"/>
+    <listType typeId="14e490bd-8143-491b-b8a6-013a56387300" valueTypeId="2d72dcbd-a8b1-4593-b5fa-0fe4989e89e4"/>
+    <managerType typeId="1fc2ebae-75b4-49a8-949f-14c66c27f797" valueTypeId="76b3353d-1738-4ebc-a5f4-b2ad28376d45"/>
+  </producedTypes>
+  <name>АС2_ПроблемыКлючейМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проблемы ключей моделей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="988c0817-cdfa-4747-b331-e8d489dbb6ce">
+    <name>ДобавленыИнтерактивно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлены руками</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

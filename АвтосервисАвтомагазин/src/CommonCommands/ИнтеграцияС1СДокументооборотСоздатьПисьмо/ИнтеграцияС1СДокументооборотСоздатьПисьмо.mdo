@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f229a4c7-8e00-4681-ac5e-515917001c14" extendedConfigurationObject="c7ba1f2c-139f-4ec0-b410-5f1c90152e91">
+  <name>ИнтеграцияС1СДокументооборотСоздатьПисьмо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <group>Checked</group>
+  </extension>
+  <group>FormCommandBarCreateBasedOn</group>
+</mdclass:CommonCommand>

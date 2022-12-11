@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c75d4c98-9cd3-4747-a87d-65c16b06b590" extendedConfigurationObject="a6aaac12-4344-4f60-a5cc-280b13071689">
+  <producedTypes>
+    <refType typeId="e788211d-ec28-4039-ab95-a38115db0202" valueTypeId="105cc0a8-61ef-43e6-bdd0-f61590a540ef"/>
+    <listType typeId="9d381951-b4e0-4e79-90d9-605fa35f30cb" valueTypeId="4b75b16f-189d-40b8-92a6-c5c72f40e39b"/>
+    <managerType typeId="92f1883d-cddb-4f0d-aef5-334865c14f6f" valueTypeId="0ba58316-85ad-4385-ac5e-3bc44b21950c"/>
+  </producedTypes>
+  <name>ГрадацииКачества</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

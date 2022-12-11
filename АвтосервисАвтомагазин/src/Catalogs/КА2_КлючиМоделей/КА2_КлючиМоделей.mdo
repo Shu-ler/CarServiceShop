@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ad7a4b3-4ad1-4488-9ea6-2e6d4632f9fd">
+  <producedTypes>
+    <objectType typeId="5790c142-4031-4c01-ac27-4e0526ab0356" valueTypeId="6ddf7a94-53bc-4a47-8911-636eb7cf7500"/>
+    <refType typeId="ff99f10c-ac89-480f-8355-63a1cb834756" valueTypeId="56116254-6f49-476a-b246-49ae79a634b2"/>
+    <selectionType typeId="eb584f8b-12b4-4f68-a8e5-ac0f4ebbee7f" valueTypeId="89a72bc9-552d-4177-bd0a-717927dc0e59"/>
+    <listType typeId="e48db8f4-96e4-4925-bca8-c51823488f3a" valueTypeId="871dd078-34b7-4337-8652-dd42c98d3256"/>
+    <managerType typeId="e907717f-bed3-4d7c-bce1-69c454c16cee" valueTypeId="78d16bf5-6b23-4f68-a474-2b8070442fff"/>
+  </producedTypes>
+  <name>КА2_КлючиМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Каталог автомобилей) Ключи моделей ТС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КА2_КлючиМоделей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Модель ТС</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ключи моделей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КА2_КлючиМоделей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КА2_КлючиМоделей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КА2_КлючиМоделей.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="3e2494e3-262f-44f5-b08b-2a29248ce360">
+    <name>ТипТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ТС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_Типы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f9c88d0-5e46-4346-971f-381de529052c">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_Марки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="603d7230-0024-4221-b4a4-2fc805d1636c">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_Модели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e03cf8ea-2c0c-4dc5-ab4c-87640c6caeba">
+    <name>Поколение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поколение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_Поколения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f20d1a6d-b53e-48f6-9ccc-094d34e68061">
+    <name>Кузов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кузов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_Кузова</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8777f7f-5948-4ad0-978f-c84e6578cd78">
+    <name>Модификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_Модификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7cb8654d-f002-4f42-96be-e5f5b6d74719">
+    <name>Комплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_Комплектации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7367ef9d-5099-4689-bb63-4a740b16689e">
+    <name>ПоколениеКузов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель, поколение, кузов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="682ed86f-42d5-4305-8a64-c7906d16aec8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b22edd81-adda-47a7-9fcd-e4ebdd04a05c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82246c50-a1f6-4264-bf2f-dfdd7fc39b13">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

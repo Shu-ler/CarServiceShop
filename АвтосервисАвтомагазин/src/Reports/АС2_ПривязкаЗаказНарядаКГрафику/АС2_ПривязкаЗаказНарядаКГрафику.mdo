@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebe149cd-cd8c-41c1-8818-23f731cc89f4">
+  <producedTypes>
+    <objectType typeId="2d5d29b9-2a51-4070-b374-dfcdcee22a33" valueTypeId="5322b9b7-75c7-4a12-8ccb-44f2b1dc81a2"/>
+    <managerType typeId="78379881-aad9-4cc2-94b9-3247efc1cc87" valueTypeId="6e5a0a26-58c6-441b-b74a-fa8bb094f7d6"/>
+  </producedTypes>
+  <name>АС2_ПривязкаЗаказНарядаКГрафику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Привязка заказ-наряда к графику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АС2_ПривязкаЗаказНарядаКГрафику.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1eeb430d-7834-496c-9e11-ba5fd8610db4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

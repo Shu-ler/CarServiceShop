@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7247b1c9-33a2-4c55-8514-6d4567e8fcb5">
+  <producedTypes>
+    <objectType typeId="1c3849a2-62cc-4b4b-b2fe-e74b9f7f01dd" valueTypeId="a934299c-f6dc-4145-a06e-ae7fa61c19e0"/>
+    <refType typeId="3b3a73c8-af55-49f6-8088-0000bb7778b4" valueTypeId="8dd431b6-b640-47cf-b3d0-71ba1cf2c3ad"/>
+    <selectionType typeId="970e9287-b912-4d83-b319-22617387e684" valueTypeId="57fe8395-591f-487b-affd-45a819bf2cd3"/>
+    <listType typeId="223fb007-8ddd-474d-a04e-5918e5bc6fb0" valueTypeId="521bb7d5-1cb6-4a6c-8af7-ed49dbcee228"/>
+    <managerType typeId="3ad457e1-2488-466b-bca9-6828945c25b8" valueTypeId="c55483f1-d3c8-4a00-a5cb-bc8290098a6a"/>
+  </producedTypes>
+  <name>АС2_Ресурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Автосервис, автомагазин) Ресурсы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АС2_Ресурсы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АС2_Ресурсы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ресурс (пост, техник)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ресурсы (посты, техники)</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>64</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.АС2_Ресурсы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="fcad3d3d-f139-430f-9ce7-dc70f15387ed">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="26c81e00-a175-45c2-af8c-ffe86a6ff100">
+    <name>Календарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb3df7f4-88f2-496f-9e3d-5d2f78453a04">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="23e4f221-fa59-4faa-8349-519eca6618ce">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

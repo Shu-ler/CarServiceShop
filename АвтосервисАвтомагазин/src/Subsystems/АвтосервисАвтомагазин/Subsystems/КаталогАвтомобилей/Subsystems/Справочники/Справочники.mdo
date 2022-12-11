@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aa79c3b-bef6-4e90-a81c-eb276edd45ba">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КА2_Типы</content>
+  <content>Catalog.КА2_Марки</content>
+  <content>Catalog.КА2_Модели</content>
+  <content>Catalog.КА2_Поколения</content>
+  <content>Catalog.КА2_Кузова</content>
+  <content>Catalog.КА2_Модификации</content>
+  <content>Catalog.КА2_Комплектации</content>
+  <parentSubsystem>Subsystem.АвтосервисАвтомагазин.Subsystem.КаталогАвтомобилей</parentSubsystem>
+</mdclass:Subsystem>

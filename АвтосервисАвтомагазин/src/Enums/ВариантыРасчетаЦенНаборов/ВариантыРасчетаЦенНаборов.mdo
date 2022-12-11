@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3c19fc3d-2143-4948-8d6a-629af0cc1f47" extendedConfigurationObject="a9f357e7-d8a1-41d9-8e8c-998aba7763d9">
+  <producedTypes>
+    <refType typeId="cf6fa1d1-51dc-40a2-aa37-733441370d7e" valueTypeId="f7bcd479-003a-4460-9931-82178d7d2261"/>
+    <listType typeId="e488ba76-4e23-4179-95bb-72e6bfa5557e" valueTypeId="4fc7e738-d1b1-4cfc-8ab6-f4933e8a2df7"/>
+    <managerType typeId="69d57249-cb0d-4112-b388-71ed13ac21ee" valueTypeId="7fe3249b-05a4-40ad-85aa-f73e1da4bf81"/>
+  </producedTypes>
+  <name>ВариантыРасчетаЦенНаборов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1481b4be-64c1-4db6-949f-cd02ab77136c">
+  <producedTypes>
+    <objectType typeId="5502b4d5-ded4-487c-810c-9fa8ac098e0e" valueTypeId="8a0e034f-9290-49ab-9363-eb51af2f1b48"/>
+    <refType typeId="31b3bb53-9b99-45f4-9289-651090f35763" valueTypeId="a772adcb-fb52-4b6e-bcaf-2c803262d3c7"/>
+    <selectionType typeId="54350f7d-db9f-48f8-90d0-529426ac110d" valueTypeId="ce01cafd-bd42-4d17-8801-a72b98149a78"/>
+    <listType typeId="7840e820-1483-4a2b-b1b4-6a875fde41a2" valueTypeId="3d66a923-bcf9-44d7-8e43-39376660128e"/>
+    <managerType typeId="df846cc3-eed3-4aab-b768-33b7936833be" valueTypeId="b07cdf72-4508-4a59-bcaf-97c2e4870360"/>
+  </producedTypes>
+  <name>ВариантыКомплектацииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <owners>Checked</owners>
+  </extension>
+  <owners>Catalog.Номенклатура</owners>
+  <attributes uuid="7fa1f7fa-2460-4f56-b4d4-63b0e9b9e701">
+    <name>СодержитУслуги</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f0f25608-5901-4583-b8a7-81e36a6ebdae">
+    <name>СодержитТовары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="56610d77-a709-430e-9c9b-cfbe33c06aa7">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="0efb168d-7648-46ec-aee7-d46d4f55f8ec">
+    <name>Основной</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9cedf938-8781-4192-99e1-2cc2d2700e78">
+    <name>ВариантРасчетаЦеныНабора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыРасчетаЦенНаборов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

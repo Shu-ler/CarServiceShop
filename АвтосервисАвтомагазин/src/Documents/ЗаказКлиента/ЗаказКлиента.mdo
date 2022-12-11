@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b777cbcb-49e1-41d4-af51-620bac207238" extendedConfigurationObject="1ceef4a2-6b58-45a0-8a75-bb6e3004590f">
+  <producedTypes>
+    <objectType typeId="c41df98e-fc72-4bf2-82ee-a5054968c647" valueTypeId="05a11861-59e0-4421-a4be-d3741ed947dd"/>
+    <refType typeId="c4a7f791-f6f2-401e-b882-6c7828d77149" valueTypeId="306a909a-1a2f-4811-b4aa-39dc72062332"/>
+    <selectionType typeId="36439ca7-12ce-42f9-81a0-44267838344b" valueTypeId="99a74c67-79e5-498c-974f-310c24e0a30d"/>
+    <listType typeId="b89f9822-8e05-4f84-ac81-6a066d320ac7" valueTypeId="01eaefd0-b29a-4dbe-bcf7-5430da1a41b8"/>
+    <managerType typeId="551696d1-f6fd-4658-aeef-ce904fc5225d" valueTypeId="ded4548b-cedc-4fcd-bea0-c29359767a08"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="875d0bf8-db2e-4db6-aed5-74c5a71d454f">
+    <name>АС2_ЭтоЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это заказ клиента</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a26151d7-1f82-41d3-8220-8ada50c77d6a">
+    <name>АС2_АвтомобильКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.АС2_АвтомобилиКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

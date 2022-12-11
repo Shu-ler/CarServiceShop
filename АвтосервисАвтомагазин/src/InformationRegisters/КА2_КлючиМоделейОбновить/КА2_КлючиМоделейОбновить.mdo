@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f18d27b1-4c4c-4728-b205-bf9bfeadfb9c">
+  <producedTypes>
+    <selectionType typeId="faab3273-b828-4475-91af-905e453ec7ee" valueTypeId="8b72c09f-4ebf-4d4e-8af5-305ff70e148a"/>
+    <listType typeId="0a5fc273-bbff-4ee8-a18a-e30b02b62026" valueTypeId="b35ff229-4b54-4a38-86e3-db699447b0d7"/>
+    <managerType typeId="bb69c31d-0f93-47bf-8e65-0e91d85b8018" valueTypeId="708e879a-4259-4c49-ad5b-5867b49eb452"/>
+    <recordSetType typeId="c8a21d2f-091a-4e7e-8f25-9eb64c55b73b" valueTypeId="41456e6e-8d15-4b62-ab64-2f6e5bfac2f1"/>
+    <recordKeyType typeId="654f465d-e0c9-477a-827e-ebb145e3d07f" valueTypeId="b5b0506c-057d-4323-8a3f-344f7037992f"/>
+    <recordType typeId="143b7241-d194-46dd-be41-21ba82f55d9c" valueTypeId="40d86397-a8a3-4ec1-a5e3-e33b29de05ac"/>
+    <recordManagerType typeId="3043ef21-a67a-42e4-b6a0-2bc5f8e7858c" valueTypeId="91c89291-08d1-4a74-ac7c-9c574cc1ab48"/>
+  </producedTypes>
+  <name>КА2_КлючиМоделейОбновить</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Каталог автомобилей) Ключи моделей для обновления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список ключей моделей, требующих обновления</value>
+  </listPresentation>
+  <dimensions uuid="63b0b7be-feb8-4160-9c8c-a19557109757">
+    <name>КлючМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ модели</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КА2_КлючиМоделей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fc64fc1-7b73-4360-ba08-d66d751e37a1">
+  <producedTypes>
+    <objectType typeId="fb2b8a1f-d4dc-45b0-8f56-519d9f3b800a" valueTypeId="ab561ada-9963-46c5-83d3-bb4291a737aa"/>
+    <refType typeId="0b88fc47-8af1-462e-aaa2-4730c3f814e2" valueTypeId="8d31e188-2f81-4678-ac0b-4d503d65fbe4"/>
+    <selectionType typeId="2f6ede07-e26a-49ff-8097-3e0fa6f30c4d" valueTypeId="70e6a690-41c9-405e-ab0c-f6168e4aba53"/>
+    <listType typeId="68f24717-6503-44a5-91e7-cacff3f5c240" valueTypeId="4f5df3d5-9659-42cb-a548-f8fce2cee17b"/>
+    <managerType typeId="4648e550-4e62-4a90-adcc-9b5fb7b965ef" valueTypeId="5608e5ce-f2cb-4ce7-9cac-e4fd398ce9f3"/>
+  </producedTypes>
+  <name>КА2_Модификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Каталог автомобилей) Модификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КА2_Модификации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КА2_Модификации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Модификация</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модификации</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.КА2_Кузова</owners>
+  <owners>Catalog.КА2_Модели</owners>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.КА2_Модификации.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="b9a12656-7000-4c65-bd04-5bd23135ce63">
+    <name>id_car_serie</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код кузова</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cbb278c-64a5-411f-84a4-9b52c6b44022">
+    <name>id_car_model</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код модели</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6edbc90c-670b-4162-a28c-8ae5ac3f23fe">
+    <name>start_production_year</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало выпуска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66b39048-fb11-4ab5-baf1-535058066d88">
+    <name>end_production_year</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание выпуска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4d8ca04-b45a-4c0c-8786-5d25d1c27eda">
+    <name>date_create</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные создания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="762543af-d668-4426-b129-1c701fa0972e">
+    <name>date_update</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e4579dd-2c7b-405b-92d5-62a0e858b97a">
+    <name>id_car_type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код типа ТС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3408f981-b895-4417-a319-fa26bbd0c556">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

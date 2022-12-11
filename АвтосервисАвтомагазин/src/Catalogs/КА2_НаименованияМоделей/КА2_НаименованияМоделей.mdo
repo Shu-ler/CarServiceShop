@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76c641f0-29a8-4c74-b76f-df7135e36004">
+  <producedTypes>
+    <objectType typeId="ae098fb2-ad33-422e-bfde-a37ece7300e2" valueTypeId="c43718d1-60c9-410e-9a4e-c6fa8c7fe84f"/>
+    <refType typeId="4cf3cdca-3f09-4d1f-b1e8-64c209c86b1f" valueTypeId="82514d7c-27d1-4834-b3c3-72f8a51a7320"/>
+    <selectionType typeId="7daa2e48-f6c0-4c0f-a278-999fc1b59d4d" valueTypeId="cc58617b-f84f-4af1-867b-b0923740b82c"/>
+    <listType typeId="73798e10-9c4a-4752-9638-87b935f705e3" valueTypeId="d95e7dad-2140-43d1-a880-b29d95efea2d"/>
+    <managerType typeId="3292efd5-5a7f-46e8-9399-fba74be98020" valueTypeId="1c142468-3b1a-4040-99d5-259c5b93eb7d"/>
+  </producedTypes>
+  <name>КА2_НаименованияМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Каталог автомобилей) Наименования моделей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КА2_НаименованияМоделей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Модель</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Наименования моделей</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список наименований моделей без учета типов транспортных средств</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.КА2_НаименованияМоделей.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="64dc1f15-9bc2-4f7c-8a91-e311c22d8f0d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

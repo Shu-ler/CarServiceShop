@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97977de0-e3d3-496a-a37f-2a2670d92d93">
+  <name>КаталогАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог автомобилей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КА2_Вольво</picture>
+  </picture>
+  <content>DataProcessor.КА2_ОбновлениеКаталога</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Дополнительно</subsystems>
+  <parentSubsystem>Subsystem.АвтосервисАвтомагазин</parentSubsystem>
+</mdclass:Subsystem>

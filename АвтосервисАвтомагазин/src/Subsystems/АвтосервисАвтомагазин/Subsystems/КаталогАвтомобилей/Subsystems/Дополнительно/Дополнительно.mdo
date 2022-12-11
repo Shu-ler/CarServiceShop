@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc650bf6-0310-44f1-b9ff-13c67929b6b9">
+  <name>Дополнительно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительно</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КА2_КлючиМоделей</content>
+  <content>Catalog.КА2_НаименованияМарок</content>
+  <content>Catalog.КА2_НаименованияМоделей</content>
+  <content>InformationRegister.КА2_МоделиАвтомобилейДляНоменклатуры</content>
+  <content>InformationRegister.КА2_КлючиМоделейОбновить</content>
+  <content>DataProcessor.АС2_ЗаполнениеBodycars</content>
+  <parentSubsystem>Subsystem.АвтосервисАвтомагазин.Subsystem.КаталогАвтомобилей</parentSubsystem>
+</mdclass:Subsystem>

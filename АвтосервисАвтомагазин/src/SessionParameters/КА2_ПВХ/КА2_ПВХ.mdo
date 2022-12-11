@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c766e1e-2955-4db6-8350-afeadd4b974b">
+  <name>КА2_ПВХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПВХ</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

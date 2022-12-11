@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c001c21-4fe7-46ca-848d-b2de20e42f14">
+  <name>Автосервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автосервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.АС2_Ресурсы</content>
+  <content>Catalog.АС2_АвтомобилиКлиентов</content>
+  <content>InformationRegister.АС2_ЗагрузкаРесурсов</content>
+  <content>DataProcessor.АС2_Планировщик</content>
+  <parentSubsystem>Subsystem.АвтосервисАвтомагазин</parentSubsystem>
+</mdclass:Subsystem>

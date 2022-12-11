@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a451306d-4693-4f9d-8162-625e667e464a">
+  <producedTypes>
+    <objectType typeId="69760f39-0dc6-45f5-b8db-5c2ae0909454" valueTypeId="f1ecc8ac-dee0-45ca-aff6-5ed19f5cfce3"/>
+    <managerType typeId="d79c00ce-e4c1-45d7-933f-6ad63b5bc689" valueTypeId="f0f8ae68-c329-4e9c-a0d6-7af4630e1889"/>
+  </producedTypes>
+  <name>КА2_УправлениеНаборомМоделейДляНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление набором моделей для номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КА2_УправлениеНаборомМоделейДляНоменклатуры.Form.ФормаЭлементаНоменклатуры</defaultForm>
+  <attributes uuid="a410e997-1ca3-44a0-ba08-536e9882c5c2">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="62381c3f-d0cf-4b28-9a87-57c58b865cb8">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="12695094-569e-4f5f-9c8a-7457209c87ff">
+    <producedTypes>
+      <objectType typeId="314238fc-1d29-4f93-aec8-d921791fae93" valueTypeId="76f5c71f-1700-4af6-bbcb-1538b0c45ee1"/>
+      <rowType typeId="25180dcb-65ab-4940-8885-8bb3b8833bd6" valueTypeId="2d09210e-16e8-4c5e-92de-db0a10888778"/>
+    </producedTypes>
+    <name>КлючиМоделей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключи моделей</value>
+    </synonym>
+    <attributes uuid="f6e38ad3-f323-47ab-bb93-1b790c5882ac">
+      <name>ТипТС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип ТС</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_Типы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b9ae0619-3fbc-494f-8d9f-9fe3fab23743">
+      <name>Совместимо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Совместимо</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="56dd766d-5aa7-49db-88b7-78feda72252e">
+      <name>МаркаНаименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Марка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_НаименованияМарок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f024fb64-ceff-48c0-ba9a-fffc8b3aaebf">
+      <name>Марка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Марка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_Марки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e57662f7-1728-499e-85d5-78aeeae7d396">
+      <name>МодельНаименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_НаименованияМоделей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9d610143-923f-43bf-a6bf-9fb1c43176f9">
+      <name>Модель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_Модели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3c0a617c-918f-4d68-8263-5c8cd278c2f4">
+      <name>Поколение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поколение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_Поколения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d56b8531-3465-48e3-ba41-ed7cd13733b1">
+      <name>ГодыВыпуска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Годы выпуска</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="afdfb14c-4015-4451-bd47-bf131de97009">
+      <name>ГодНП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год НП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>4</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6e8c45e2-cfd5-4d27-addd-f02060fc8dfb">
+      <name>ГодОП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год ОП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>4</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3f0d39ca-710b-443e-9393-5c821fed02ae">
+      <name>Кузов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кузов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_Кузова</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e5330486-a3d0-4fa1-bbbd-417be3164fb7">
+      <name>КузовНаименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кузов наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="8b314d44-d1a2-4388-a55f-086f63c3a36a">
+      <name>Модификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_Модификации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9f04834d-4bc4-4dbb-88aa-6ad0f6d94d94">
+      <name>Комплектация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КА2_Комплектации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9dc385e6-4e5c-4085-8b1b-8623e74d5c3f">
+      <name>ПоколениеКузов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поколение, кузов</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>64</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4b14c8d6-84b9-4f0d-8a09-cfd013ef6c5c">
+    <name>ФормаЭлементаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d8b78a1-cf23-4353-afa1-39dfabd24549">
+    <name>ДляОтбораСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для отбора списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a82adf3-ee0b-4181-9725-4eeb8798394b">
+    <name>ФормаСпискаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

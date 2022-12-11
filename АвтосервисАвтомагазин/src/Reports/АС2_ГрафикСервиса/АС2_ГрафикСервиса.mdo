@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8a4e065-d7f1-4229-a6b9-2d918097b829">
+  <producedTypes>
+    <objectType typeId="cab3a952-0a17-4cbc-a54c-604e037b095c" valueTypeId="c86b9a0e-5998-4e18-b1de-13baddb376cd"/>
+    <managerType typeId="ef014d21-6daf-44bd-93f5-19f14098867b" valueTypeId="6f1fe877-bc9c-4f00-aa00-14afa4c5556f"/>
+  </producedTypes>
+  <name>АС2_ГрафикСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>График сервиса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АС2_ГрафикСервиса.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>График  и расценки</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>График сервиса и расценки на работы</value>
+  </explanation>
+  <templates uuid="643fe5e8-1f9a-4158-b2d5-b2b0777b6ee7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

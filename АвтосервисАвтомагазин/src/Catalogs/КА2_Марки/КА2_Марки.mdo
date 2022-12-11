@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99857c1b-9efc-42be-92f0-4ffb024a021d">
+  <producedTypes>
+    <objectType typeId="827ed112-2469-48aa-8280-a62fe9e081ca" valueTypeId="245c7711-3a60-4697-9942-6a7ce9817bad"/>
+    <refType typeId="9fed81d8-e74f-4b2e-94f0-b64808592c18" valueTypeId="04bc4d5b-0bd6-47fc-b4d1-4195b97a537a"/>
+    <selectionType typeId="b34a6009-bb62-4d0d-b9b7-3b44945481f2" valueTypeId="34e05d86-cdbf-4862-a255-e806df567041"/>
+    <listType typeId="6e1ee3d6-0b35-44e3-a504-c2bd2b2b3486" valueTypeId="e2d6f03f-4cbe-4e13-a6e8-062f9300d2c5"/>
+    <managerType typeId="e8f73158-4053-4401-9f3f-61c26c7950c9" valueTypeId="811a235b-c16c-436f-bf7e-0e2e81c727d7"/>
+  </producedTypes>
+  <name>КА2_Марки</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Каталог автомобилей) Марки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КА2_Марки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КА2_Марки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Марка транспортного средства</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Марки транспортных средств</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.КА2_НаименованияМарок</owners>
+  <codeLength>8</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="51aad992-f349-458a-b02b-b524cb5791cf">
+    <name>name_rus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование по-русски</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c91db305-9786-4ab3-99a4-3067b25ce2c2">
+    <name>date_create</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные создания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e1f2b4d-120d-4049-9f83-d2a015ad67bb">
+    <name>date_update</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df47a644-f178-4034-a7fb-99d23911cace">
+    <name>id_car_type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код типа ТС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
